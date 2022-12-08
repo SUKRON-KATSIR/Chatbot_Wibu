@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="jpg/png" href="../static/images/botwibu.png" sizes="16x16" />
+  <link rel="stylesheet" href="static/assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Chatbot Keragaman Budaya & Wisata di Indonesia</title>
+</head>
+
+<body>
+    <!-- Header -->
+      <nav class="navbar navbar-light navbar-fixed-top navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container">
+          <img src="static/assets/images/dik.png" height="50", width="auto">
+          <img src="static/assets/images/msib1.png" height="50", width="auto">
+          <img src="static/assets/images/kampus-merdeka.png" height="50", width="auto">
+          <img src="static/assets/images/Synthesis.jpg" height="50", width="auto">
+          <img src="static/assets/images/orbit.png" height="50", width="auto">
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-navbar" aria-label="Toggle">
+            <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <!-- <div class="collapse navbar-collapse" id="mob-navbar">
+                <div class="navbar-nav mt-2 mb-2 mb-lg-0 mx-auto">
+                  <h4 style="font-family: Cursive, Cursive, Cursive; font-size: 30px"><b>Chatbot Keragaman Budaya dan Wisata di Indonesia</b></h4>
+                </div>
+                <div class="d-flex">
+                  <img src="static/assets/images/kampus-merdeka.png')}}" height="50", width="auto">
+                  <img src="static/assets/images/dik.png')}}" height="50", width="auto">
+                </div>
+            </div> -->
+
+        </div>
+    </nav>
+    <!-- Header End  -->
+
+    <!-- Chatbot Body -->
+    <div class="chatbot-body">
+      <div class="msger">
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <i class="fas fa-robot" style='color: white'></i><b> Seputar Wisata & Budaya Indonesia </b> <i class="fas fa-robot" style='color: white'></i>
+          </div>
+        </header>
+        <main class="msger-chat">
+          <div class="msg left-msg">
+            <div class="msg-img"></div>
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="msg-info-name">BotWiBu</div>
+                <div class="now">Sekarang</div>
+              </div>
+    
+              <div class="msg-text">
+                👋 Halo, dengan Chatbot WiBu disini. Ada yang bisa dibantu?
+              </div>
+            </div>
+          </div>
+        </main>
+    
+        <form class="msger-inputarea">
+          <input type="text" class="msger-input" id="textInput" placeholder="Masukkan pesanmu disini...">
+          <button type="submit" class="msger-send-btn">Kirim</button>
+        </form>
+      </div>
+    </div>
+    <!-- Chatbot Body End  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/all.js') }}"></script>
+    <script>
+      const msgerForm = get(".msger-inputarea");
+      const msgerInput = get(".msger-input");
+      const msgerChat = get(".msger-chat");
+
+      // Icons made by Freepik from www.flaticon.com
+      const BOT_IMG = "/static/images/botwibu.png";
+      const PERSON_IMG = "/static/images/user.png";
+      const BOT_NAME = "BotWiBu";
+      const PERSON_NAME = "Kamu";
+
+      msgerForm.addEventListener("submit", event => {
+        event.preventDefault();
+
+        const msgText = msgerInput.value;
+        if (!msgText) return;
+
+        appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+        msgerInput.value = "";
+        botResponse(msgText);
+      });
+
+      function appendMessage(name, img, side, text) {
+          // Simple solution for small apps
+        const msgHTML = `
+        <div class="msg ${side}-msg">
+          <div class="msg-img" style="background-image: url(${img})"></div>
+
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">${name}</div>
+              <div class="msg-info-time">${formatDate(new Date())}</div>
+            </div>
+
+            <div class="msg-text">${text}</div>
+          </div>
+        </div>
+        `;
+
+        msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+        msgerChat.scrollTop += 50;
+      }
+
+      function botResponse(rawText) {
+        // Bot Response
+        $.get("/get", { msg: rawText }).done(function (data) {
+          console.log(rawText);
+          console.log(data);
+          const msgText = data;
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+
+        });
+
+      }
+
+      // Utils
+      function get(selector, root = document) {
+        return root.querySelector(selector);
+      }
+
+      function formatDate(date) {
+        const h = "0" + date.getHours();
+        const m = "0" + date.getMinutes();
+
+        return `${h.slice(-2)}:${m.slice(-2)}`;
+      }
+    </script>
+</body>
+
+<footer>
+  <!-- Copyright -->
+  <div class="text-center p-1" style="background-color: #e3f2fd;">
+    © Copyright: 2022 - <script>document.write(new Date().getFullYear())</script> <b>RISING DOCKER</b>
+    <p><a class="text-reset fw-bold" href="">MAHASISWA MSIB </a></p> 
+  </div>
+  <!-- Copyright -->
+</footer>
+</html>

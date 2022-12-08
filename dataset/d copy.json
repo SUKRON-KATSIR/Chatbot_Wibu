@@ -1,0 +1,2371 @@
+{
+    "intents": [
+        {
+            "tag": "greeting ",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Hai !, salam kenal ya! Mau tau seputar Keragaman Budaya & Wisata di Indonesia ? ",
+                "Hai !, salam kenal ya! Mau tau seputar Keragaman Budaya & Wisata di Indonesia ? ",
+                "Hai !, salam kenal ya! Mau tau seputar Keragaman Budaya & Wisata di Indonesia ? "
+            ]
+        },
+        {
+            "tag": "yaaaa ",
+            "patterns": [
+                "ya",
+                "iyaa",
+                "y",
+                "yaa"
+            ],
+            "responses": [
+                "Mau tau seputar Keragaman Budaya & Wisata di Indonesia provinsi mana nih ?"
+            ]
+        },
+        {
+            "tag": "salam",
+            "patterns": [
+                "assalamualaikum",
+                "assalamualaikum wr wb",
+                "assalamualaikum w.w.",
+                "assalamualaikum w.w",
+                "assalamu'alaikum ",
+                "assalamualikum warahmatullahi wabarakatuh",
+                "assalamua'likum warahmatullahi wabarakatuh",
+                "Assalamu'alaikum warahmatullahi wabarakatuh"
+            ],
+            "responses": [
+                "Waalaikumsalam Warahmatullahi Wabarakatuh, salam kenal ya! Mau tau seputar Keragaman Budaya & Wisata di Indonesia ? "
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "by",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "by",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Dengan senang hati:)",
+                "Sama-sama yaa"
+            ]
+        },
+        {
+            "tag": "tentang_provinsi",
+            "patterns": [
+                "Jumlah provinsi di indonesia ?",
+                "berapa jumlah provinsi di indonesia ?",
+                "berapa jumlah provinsinya ?",
+                "berapa jumlah provinsi di indonesia saat ini ?"
+            ],
+            "responses": [
+                "Jumlah provinsi di indonesia awalnya berjumlah 34 namun pada 11 November 2022 jumlah provinsi bertambah 3 menjadi 37,Dilansir dari Kompas.com, 3 provinsi tersebut merupakan pemekaran Provinsi Papua yang sudah sesuai dengan RUU yang di sahkan DPR. Adapun 3 provinsi baru yaitu Papua Selatan, Papua Tengah dan Papua Pegunungan. Kemudian dalam rapat paripurna DPR 17 November 2022 wilayah indonesia mengalami pemekaran provinsi lagi yang dikutip dari situs DPR.go.id jumlah provinsi saat ini adalah 38. Adapun provinsi baru tersebut merupakan pemekaran dari wilayah Papua juga yaitu Provinsi Papua Barat Daya"
+            ]
+        },
+        {
+            "tag": "nama_provinsi",
+            "patterns": [
+                "sebutkan nama - nama provinsi di indonesia saat ini ?",
+                "apa saja nama provinsi di indonesia ?",
+                "nama provinsi indonesia",
+                "nama-nama provinsi indonesia",
+                "nama-nama provinsi di indonesia",
+                "nama provinsi di indonesia"
+            ],
+            "responses": [
+                "1.Nanggroe Aceh Darussalam, 2.Sumatera Utara, 3.Sumatera Selatan, 4.Sumatera Barat, 5.Bengkulu, 6.Riau, 7.Kepulauan Riau, 8.Jambi, 9.Lampung, 10.Bangka Belitung, 11.Kalimantan Barat, 12.Kalimantan Timur, 13.Kalimantan Selatan, 14.Kalimantan Tengah, 15.Kalimantan Utara, 16.Banten, 17.DKI Jakarta, 18.Jawa Barat, 19.Jawa Tengah, 20.DI Yogyakarta, 21.Jawa Timur, 22.Bali, 23.Nusa Tenggara Timur, 24.Nusa Tenggara Barat, 25.Gorontalo, 26.Sulawesi Barat, 27.Sulawesi Tengah, 28.Sulawesi Utara, 29.Sulawesi Tenggara, 30.Sulawesi Selatan, 31.Maluku Utara, 32.Maluku, 33.Papua Barat, 34.Papua, 35.Papua Selatan, 36.Papua Tengah, 37.Papua Pegunungan Tengah, 38.Papua Barat Daya"
+            ]
+        },
+        {
+            "tag": "destinasi_aceh",
+            "patterns": [
+                "Destinasi yang ada di Nanggroe aceh darussalam ",
+                "tempat wisata yang ada di aceh",
+                "wisata aceh",
+                "tempat wisata aceh",
+                "destinasi aceh",
+                "wisata aceh",
+                "wisata di aceh",
+                "destinasi di aceh",
+                "mana saja tempat wisata yang ada di aceh darussalam ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di Nanggroe aceh darussalam yaitu Masjid Raya Baiturrahman, Museum Tsunami, Pantai Lhoknga, Danau Lut Tawar dan Air Terjun Blang Kolam "
+            ]
+        },
+        {
+            "tag": "masjid_baiturrahman",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai masjid baiturrahman ? ",
+                "Apa yang kamu ketahui tentang masjid baiturrahman ?",
+                "Apa yang bisa kamu jelaskan mengenai masjid baiturrahman ?",
+                "masjid baiturrahman"
+            ],
+            "responses": [
+                "Masjid Raya Baiturrahman Aceh dibangun pada masa pemerintahan Sultan Iskandar Muda, dengan tujuan sebagai pusat pengajaran ilmu agama. Masjid ini mampu menampung sebanyak 1900 jamaah, di bagian luar masjid terdapat taman yang indah. Dan pada waktu terjadinya tsunami Aceh tahun 2004, Masjid Raya Baiturrahman merupakan salah satu bangunan yang tetap kokoh berdiri dan dijadikan sebagai tempat pengungsian. Masjid ini sudah mengalami renovasi hingga 5 kali serta beberapa perluasan area. Bahkan masjid ini sempat menjadi tempat perlindungan masyarakat Aceh saat bencana tsunami menyerang di tahun 2004 silam. Masjid ini terletak di (Jl. Moh. Jam No.1, Kp. Baru, Kec. Baiturrahman, Kota Banda Aceh, Aceh) "
+            ]
+        },
+        {
+            "tag": "museum_tsunami",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai museum tsunami ? ",
+                "Apa yang kamu ketahui tentang museum tsunami ?",
+                "Apa yang bisa kamu jelaskan mengenai museum tsunami ?",
+                "museum tsunami",
+                "kisah museum tsunami"
+            ],
+            "responses": [
+                "Museum Tsunami terletak di (Jl. Sultan Iskandar Muda, No. 3, Sukaramai, Kecamatan Baiturrahman, Kota Banda Aceh, Aceh.), di dalam Museum Tsunami Aceh di dalamnya menyimpan nama - nama dari korban Tsunami pada tahun 2004, selain itu ada pula 22 alat peraga, 7 paket dan 26 foto mengenai tsunami. Untuk masuk kedalamnya harus membayar tiket sebesar 2rb hingga 10rb disana buka jam 09.00 - 16.00"
+            ]
+        },
+        {
+            "tag": "Pantai_Lhoknga",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Pantai Lhoknga ? ",
+                "Apa yang kamu ketahui tentang Pantai Lhoknga ?",
+                "Apa yang bisa kamu jelaskan mengenai Pantai Lhoknga ?",
+                "Pantai Lhoknga",
+                "kisah Pantai Lhoknga"
+            ],
+            "responses": [
+                "Pantai Lhoknga memiliki hamparan pasir berwarna putih serta laut yang berwarna biru, pantai ini sering digunakan untuk bermain selancar air atau surfing. Di sekitar lokasi Pantai Lhoknga terdapat penyewaan papan selancar, sehingga dapat mempermudah kamu ketika hendak bermain surfing. Lokasi nya terletak di kecamatan Lhoknga, Kabupaten Aceh Besar, Aceh. untuk Tiket masuk mulai Rp. 15.000 dan Jam bukanya 07.00 – 17.00"
+            ]
+        },
+        {
+            "tag": "Danau Lut Tawar",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Danau Lut Tawar ? ",
+                "Apa yang kamu ketahui tentang Danau Lut Tawar ?",
+                "Apa yang bisa kamu jelaskan mengenai Danau Lut Tawar ?",
+                "Danau Lut Tawar",
+                "kisah Danau Lut Tawar"
+            ],
+            "responses": [
+                "Danau Lut Tawar terletak di Dataran tinggi Gayo, Kabupaten Aceh tengah provinsi aceh, danau ini sangat luas terlihat seperti sebuah lautan hanya saja airnya tawar. Itulah yang melatarbelakangi penamaan Danau Lut Tawar. Kamu dapat menikmati keindahan Danau Lut Tawar yang berwarna biru, dihiasi pula dengan perbukitan yang berwarna hijau. Yakni dengan menyewa perahu motor untuk mengelilingi danau ataupun dengan menyewa sepeda. Tapi ketika berada di Danau Lut Tawar, kamu tidak diperkenankan untuk berenang karena memiliki kedalaman mencapai 80 meter. "
+            ]
+        },
+        {
+            "tag": "Air_Terjun_Blang_Kolam",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Air terjun Blang Kolam ? ",
+                "Apa yang kamu ketahui tentang Air terjun Blang Kolam ?",
+                "Apa yang bisa kamu jelaskan mengenai Air terjun Blang Kolam ?",
+                "Air terjun Blang Kolam",
+                "kisah Air terjun Blang Kolam"
+            ],
+            "responses": [
+                "Air Terjun Blang Kolam ialah sebuah air terjun yang memiliki ketinggian sekitar 75 meter, dengan kedalaman kolamnya antara 1 hingga 3 meter. Untuk menuju Air Terjun Blang Kolam, kamu harus melakukan trekking menuruni anak tangga terlebih dahulu. Karena memang lokasinya masih tersembunyi. Selain bermain air, di tempat wisata Aceh yang satu ini kamu juga dapat melakukan camping bersama komunitas para pecinta alam."
+            ]
+        },
+        {
+            "tag": "ibu_kota_Nanggroe_Aceh_Darussalam",
+            "patterns": [
+                "dimana ibu kota Nanggroe Aceh Darussalam ?",
+                "ibu kota aceh",
+                "Ibu kota Nanggroe Aceh Darussalam",
+                "nama ibu kota Nanggroe Aceh Darussalam",
+                "nama ibukota Nanggroe Aceh Darussalam",
+                "ibu kota Aceh Darussalam",
+                "ibu kota aceh"
+            ],
+            "responses": [
+                "Ibu Kota Nanggroe Aceh Darussalam terletak di Banda Aceh"
+            ]
+        },
+        {
+            "tag": "sumatera",
+            "patterns": [
+                "wisata Sumatera",
+                "Destinasi yang ada di Sumatera",
+                "Destinasi apa saja yang ada di Sumatera  ",
+                "tempat wisata yang ada di Sumatera apa saja?",
+                "mana saja tempat wisata yang ada di Sumatera ",
+                "tempat wisata yang ada di Sumatera",
+                "wisata Sumatera",
+                "tempat wisata Sumatera",
+                "destinasi Sumatera",
+                "wisata Sumatera",
+                "wisata di Sumatera",
+                "destinasi di Sumatera",
+                "mana saja tempat wisata yang ada di Sumatera ?"
+            ],
+            "responses": [
+                "Kamu Mau tau seputar wisata dan budaya yang ada di Sumatera mana ya, Karena untuk area Sumatera masih terbagi dengan 3 Provinsi yaitu Sumatera Utara, Sumatera Selatan dan Sumatera Barat, Silahkan pilih salah satu ya.....😊"
+            ]
+        },
+        {
+            "tag": "destinasi_sumatera_utara",
+            "patterns": [
+                "Destinasi yang ada di sumatera utara",
+                "tempat wisata yang ada di sumatera utara",
+                "wisata sumatera utara",
+                "tempat wisata sumatera utara",
+                "destinasi sumatera utara",
+                "wisata sumatera utara",
+                "wisata di sumatera utara",
+                "destinasi di sumatera utara",
+                "mana saja tempat wisata yang ada di sumatera utara ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Sumatera Utara yaitu Danau Toba, Pulau Samosir, Museum Perjuangan TNI, Kebun Binatang Medan dan Taman Buaya Medan "
+            ]
+        },
+        {
+            "tag": "danau_toba",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Danau Toba ? ",
+                "Apa yang kamu ketahui tentang Danau Toba ?",
+                "Apa yang bisa kamu jelaskan mengenai Danau Toba ?",
+                "Danau Toba",
+                "kisah Danau Toba"
+            ],
+            "responses": [
+                "Danau Toba terbentuk oleh letusan gunung berapi beberapa abad yang lalu. Danau yang yang merupakan destinasi wisata fovorit ini juga merupakan ikon Sumatera Utara. Terdapat banyak penginapan disana jika ingin bermalam disana"
+            ]
+        },
+        {
+            "tag": "Pualau_Samosir",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Pulau Samosir ? ",
+                "Apa yang kamu ketahui tentang Pulau Samosir ?",
+                "Apa yang bisa kamu jelaskan mengenai Pulau Samosir ?",
+                "Pulau Samosir",
+                "kisah Pulau Samosir"
+            ],
+            "responses": [
+                "Pulau Samosir merupakan sebuah pulau yang terletak di tengah - tengah Danau Toba. Untuk mencapai paulau yang memiliki ketinggian 1000 meter di atas permukaan laut harus menggunakan kapal ferry dan bisa juga dengan menggunakan jalur darat. Disini kita bisa menjumpai pemandangan yang indah dan menarik. Di pulau ini juga terdapat pemandian air panas."
+            ]
+        },
+        {
+            "tag": "Museum_perjuanganTNI",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Museum Perjuangan TNI ? ",
+                "Apa yang kamu ketahui tentang Museum Perjuangan TNI ?",
+                "Apa yang bisa kamu jelaskan mengenai Museum Perjuangan TNI ?",
+                "Museum Perjuangan TNI",
+                "kisah Museum Perjuangan TNI"
+            ],
+            "responses": [
+                "Museum Perjuangan TNI dibuka pada tahun 1971 di dalamnya tersimpan banyak benda-benda bersejarah pada masa perjuangan kemerdekaan Indonesia melawan pemberontakan pada tahun 1958, pada museum ini memberikan gambaran perjuangan pahlawan di masa lalu dan museum ini terletak di jln.Zainul Arifin, Kota Medan"
+            ]
+        },
+        {
+            "tag": "kebun_binatang_Medan",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Kebun Binatang Medan ? ",
+                "Apa yang kamu ketahui tentang Kebun Binatang Medan ?",
+                "Apa yang bisa kamu jelaskan mengenai Kebun Binatang Medan ?",
+                "Kebun Binatang Medan",
+                "kisah Kebun Binatang Medan"
+            ],
+            "responses": [
+                "Kebun binatang Medan ini terletak di Jl.Brigjen Katamso, Kp.baru, Medan Maimun, Kota Medan atau berjarak sekitar 10km dari pusat kota. untuk tarif masuknya yaitu 7rb dan buka setiap hari jam 09.00 - 17.00 wib, didalam kebun binatang tersebut terdapat banyak macam koleksi hewan tropis, hewan mamalia seperti Harimau, Gajah, Singa dan Beruang"
+            ]
+        },
+        {
+            "tag": "taman_buaya_medan",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Taman Buaya Medan ? ",
+                "Apa yang kamu ketahui tentang Taman Buaya Medan ?",
+                "Apa yang bisa kamu jelaskan mengenai Taman Buaya Medan ?",
+                "Taman Buaya Medan",
+                "kisah Taman Buaya Medan"
+            ],
+            "responses": [
+                "Taman Buaya Medan ini telah dihuni kurang lebih 2600ekor buaya yang di pelihara dimulai sejak tahun 1959. Taman Buaya ini terletak di kelurahan Asam Kumbang Kecamatan Medan Selayang. Di taman ini kita kamu bisa melihat buaya yan baru lahir sampai buaya yang berusia 25 tahun dan sebagian buaya telah di latih untuk antraksi yang menkjubkan. Taman Buaya Medan Ini terletak di Jln. Bunga Raya II No. 59 Sunggal dan buka jam 09.00 - 17.00 wib"
+            ]
+        },
+        {
+            "tag": "destinasi_Sumatera_selatan",
+            "patterns": [
+                "Destinasi yang ada di Sumatera selatan",
+                "tempat wisata yang ada di Sumatera selatan",
+                "wisata Sumatera selatan",
+                "tempat wisata Sumatera selatan",
+                "destinasi Sumatera selatan",
+                "wisata Sumatera selatan",
+                "wisata di Sumatera selatan",
+                "destinasi di Sumatera selatan",
+                "mana saja tempat wisata yang ada di Sumatera selatan ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Sumatera Selatan yaitu Jembatan Ampera, Rumah Limas, Hutan Wisata Punti Kayu, Masjid Agung Palembang dan Goa Putri "
+            ]
+        },
+        {
+            "tag": "destinasi_sumatera_barat",
+            "patterns": [
+                "Destinasi yang ada di Sumatera barat",
+                "tempat wisata yang ada di Sumatera barat",
+                "wisata Sumatera barat",
+                "tempat wisata Sumatera barat",
+                "destinasi Sumatera barat",
+                "wisata Sumatera barat",
+                "wisata di Sumatera barat",
+                "destinasi di Sumatera barat",
+                "mana saja tempat wisata yang ada di Sumatera barat ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Sumatera Barat yaitu Pulau Pasumpahan, Puncak Lawang, Lembah Harau, Bukit Nobita dan Puncak Gagoan"
+            ]
+        },
+        {
+            "tag": "datinasi_bengkulu",
+            "patterns": [
+                "Destinasi yang ada di bengkulu",
+                "tempat wisata yang ada di bengkulu",
+                "wisata bengkulu",
+                "tempat wisata bengkulu",
+                "destinasi bengkulu",
+                "wisata bengkulu",
+                "wisata di bengkulu",
+                "destinasi di bengkulu",
+                "mana saja tempat wisata yang ada di bengkulu ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Bengkulu yaitu Benteng Marlborough, Pantai Air Bengkenang, Pantai Sungan Suci, Gunung Kaba dan Pantai Padang Betuah"
+            ]
+        },
+        {
+            "tag": "destinasi_riau",
+            "patterns": [
+                "Destinasi yang ada di riau",
+                "tempat wisata yang ada di riau",
+                "wisata riau",
+                "tempat wisata riau",
+                "destinasi riau",
+                "wisata riau",
+                "wisata di riau",
+                "destinasi di riau",
+                "mana saja tempat wisata yang ada di riau ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Riau yaitu Candi Muara Takus (satu-satunya candi peninggalan umat Budha di Riau), Air Terjun Bigau, Danau Raja, Istana Siak Sri Indraputra dan Kebun Binatang  Kasang Kulim"
+            ]
+        },
+        {
+            "tag": "destinasi_kepulauan_riau",
+            "patterns": [
+                "Destinasi yang ada di kepulauan Riau",
+                "tempat wisata yang ada di kepulauan Riau",
+                "wisata kepulauan Riau",
+                "tempat wisata kepulauan Riau",
+                "destinasi kepulauan Riau",
+                "wisata kepulauan Riau",
+                "wisata di kepulauan Riau",
+                "destinasi di kepulauan Riau",
+                "mana saja tempat wisata yang ada di kepulauan Riau ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Kepulauan Riau yaitu Pulau Bintan, Pulau Penyengat, Pulau Ranah, Kepulauan Anambas dan Kepri Coral"
+            ]
+        },
+        {
+            "tag": "destinasi_Provinsi_Jambi_azizah",
+            "patterns": [
+                "Destinasi apa saja yang ada di Jambi? ",
+                "tempat wisata yang ada Jambi apa saja?",
+                "mana saja tempat wisata yang ada di Jambi?",
+                "Destinasi yang ada di Jambi",
+                "tempat wisata yang ada di Jambi",
+                "wisata Jambi",
+                "tempat wisata Jambi",
+                "destinasi Jambi",
+                "wisata Jambi",
+                "wisata di Jambi",
+                "destinasi di Jambi",
+                "mana saja tempat wisata yang ada di Jambi ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Jambi, diantaranya yaitu Wisata Danau Gunung Tujuh, Danau Kaco, Tugu Keris Siginjai, dan MAsjid Agung Al Falah "
+            ]
+        },
+        {
+            "tag": "Gunung_Tujuh",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai gunung tujuh ? ",
+                "Apa yang kamu ketahui tentang gunung tujuh ?",
+                "Apa yang bisa kamu jelaskan mengenai gunung tujuh ?",
+                "gunung tujuh",
+                "kisah gunung tujuh",
+                "Bisakah kamu ceritakan mengenai Danau gunung tujuh ? ",
+                "Apa yang kamu ketahui tentang Danau gunung tujuh ?",
+                "Apa yang bisa kamu jelaskan mengenai Danau gunung tujuh ?",
+                "Danau gunung tujuh",
+                "kisah Danau gunung tujuh",
+                "Bisakah kamu ceritakan mengenai danau gunung 7 ? ",
+                "Apa yang kamu ketahui tentang danau gunung 7 ?",
+                "Apa yang bisa kamu jelaskan mengenai danau gunung 7 ?",
+                "danau gunung 7",
+                "kisah danau gunung 7"
+            ],
+            "responses": [
+                "Danau ini dinobatkan menjadi danau vulkanik tertinggi se-Asia Tenggara, danau ini sangat jernih dan terjaga, danau ini tidak tereksplor sehingga sedikit orang yang mengetahuinya. Jadi, buat kalian yang ingin sendiri atau menjauh dari keramaian kami sarankan untuk mendatangi danau ini. danau ini berada di (Pesisir Bukit, Gn Tujuh, Kerinci, Jambi)"
+            ]
+        },
+        {
+            "tag": "Danau_Kaco",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai danau Kaco ? ",
+                "Apa yang kamu ketahui tentang danau Kaco ?",
+                "Apa yang bisa kamu jelaskan mengenai danau Kaco ?",
+                "danau Kaco",
+                "kisah danau Kaco"
+            ],
+            "responses": [
+                "Danau Kaco memiliki keunikan yang khas yang jarang dimiliki oleh danau-danau lain yang ada di Indonesia. Keunikan tersebut seperti Danau Kaco dapat mengeluarkan cahaya yang terang, terutama pada saat bulan purnama. Warna air di danau ini adalah cyan atau hijau kebiruan yang sangat jernih dan berkilau di malam hari. Menurut kepercayaan warga setempat, cahaya yang dikeluarkan dari dasar Danau Kaco merupakan cahaya intan yang tersimpan di dasar air. Intan tersebut disimpan oleh Raja Gagak, yang berkuasa pada saat itu.  Menurut sesepuh desa, intan yang disimpan Raja Gagak di dasar Danau Kaco adalah intan titipan yang merupakan ikatan janji pangeran-pangeran yang ingin melawar putri Raja Gagak yang bernama Putri Napal Melintang. Semua lamaran anak raja yang di Kerinci diterima oleh Raja Gagak, akhirnya dia kebingungan ingin nerima pelamar yang mana. Putri Nepal Melintang sendiri dikenal dengan wajah yang sangat cantik sehingga ia disukai oleh pemuda yang ada pada zaman itu. Bahkan karena kecantikannya ia disukai oleh ayahnya sendiri, Raja Gagak membawa lari putrinya beserta perhiasan Intannya yang dititipkan oleh pengeran sebagai tanda janji.  Konon intan yang dibawa lari oleh Raja Gagak disimpan di dasar Danau Kaco. Sampai saat ini warga Desa Lempur, Kecamatan Gunung Raya masih mempercayai bahwa intan tersebut masih tersimpan di dasar danau. Tempat wisata ini berada di ( Dusun Baru Lempur, Gn Raya Kerinci Jambi )"
+            ]
+        },
+        {
+            "tag": "Tugu_keris_siginjai",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai tugu keris siginjai ? ",
+                "Apa yang kamu ketahui tentang tugu keris siginjai ?",
+                "Apa yang bisa kamu jelaskan mengenai tugu keris siginjai ?",
+                "tugu keris siginjai",
+                "kisah tugu keris siginjai"
+            ],
+            "responses": [
+                "Tugu Keris Siginjai adalah sebuah tugu atau monumen yang merupakan ikon dari Kota Jambi. Bentuknya menyerupai keris siginjai yakni keris kerajaan Jambi. Tugu ini memiliki tinggi sekitar 9 meter dan tinggi keseluruhannya sekitar 28 meter. Letaknya tepat berada dipusat perkantoran Wali Kota Jambi, Kota Baru. Tugu keris siginjai diresmikan oleh Wali Kota Jambi, Syarif Fasha tanggal 31 Desember 2017 atau pada tahun baru 2018. Sebelum direnovasi menjadi tugu keris siginjai, tugu ini adalah tugu jam atau dikenal juga dengan tugu monas, karena bentuknya menyerupai monas yang berada di Jakarta."
+            ]
+        },
+        {
+            "tag": "masjid_agung_al_falah",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai masjid alfalah ? ",
+                "Apa yang kamu ketahui tentang masjid alfalah ?",
+                "Apa yang bisa kamu jelaskan mengenai masjid alfalah ?",
+                "masjid alfalah",
+                "kisah masjid alfalah",
+                "Bisakah kamu ceritakan mengenai masjig agung al falah ? ",
+                "Apa yang kamu ketahui tentang masjig agung al falah ?",
+                "Apa yang bisa kamu jelaskan mengenai masjig agung al falah ?",
+                "masjig agung al falah",
+                "kisah masjig agung al falah"
+            ],
+            "responses": [
+                "Masjid Agung Al-Falah merupakan masjid terbesar di Jambi, Indonesia. Masjid ini juga dikenal sebagai Masjid 1000 Tiang, meskipun jumlah tiangnya hanya 256. Masjid ini dibangun pada tahun 1971 dan selesai pada tahun 1980, bangunannya memang hanya seperti sebuah pendopo terbuka dengan banyak tiang penyangga dan satu kubah besar di atasnya. Lokasi Masjid Agung ini berdiri, dulunya merupakan pusat kerajaan Melayu Jambi, bekas istana Tanah Pilih dari Sultan Thaha Syaifuddin. Tanah lokasi di mana Masjid Agung ini berdiri, dulunya merupakan pusat kerajaan Melayu Jambi. Namun pada tahun 1885 dikuasai penjajah Belanda dan dijadikan pusat pemerintahan dan benteng Belanda. Hal tersebut sejalan dengan penjelasan sejarawan Jambi, Junaidi T Nur, bahwa Mesjid Agung Al falah ini berdiri di lahan bekas Istana Tanah Pilih dari Sultan Thaha Syaifuddin.  gagasan pembangunan Masjid Agung sudah mengemuka tahun 1960-an oleh pemerintah Jambi, beserta tokoh tokoh Islam Jambi. Namun, proses pembangunan masjid baru dimulai tahun 1971. Para alim ulama dan tokoh tokoh Jambi di antaranya M.O. Bafaddal, H Hanafi, Nurdin Hamzah, dan gubernur saat itu (Tambunan atau Nur Admadibrata ) Sepakat untuk membangun masjid agung di lokasi tersebut dan dan merelokasi asrama TNI. Salah satu alasan kenapa masjid yang dibangun di lokasi bersejarah tersebut adalah mengacu pada lambang Jambi yang terdapat gambar Masjid. Masjid Agung Al-falah kota Jambi diresmikan penggunaannya oleh presiden Soeharto pada tanggal 29 September 1980."
+            ]
+        },
+        {
+            "tag": "destinasi_Lampung",
+            "patterns": [
+                "Destinasi apa saja yang ada di Lampung? ",
+                "tempat wisata yang ada di Lampung apa saja?",
+                "mana saja tempat wisata yang ada di Lampung?",
+                "Destinasi yang ada di Lampung",
+                "tempat wisata yang ada di Lampung",
+                "wisata Lampung",
+                "tempat wisata Lampung",
+                "destinasi Lampung",
+                "wisata Lampung",
+                "wisata di Lampung",
+                "destinasi di Lampung",
+                "mana saja tempat wisata yang ada di Lampung ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Lampung, diantaranya yaitu Vihara Thay Hin Bio, Istana Sekala Brak, Monumen Gunung Krakatau, dan Museum Lampung Ruwa Jurai. "
+            ]
+        },
+        {
+            "tag": "vihara_thay_hin_bio",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai vihara thay hin bio ? ",
+                "Apa yang kamu ketahui tentang vihara thay hin bio ?",
+                "Apa yang bisa kamu jelaskan mengenai vihara thay hin bio ?",
+                "vihara thay hin bio",
+                "kisah vihara thay hin bio"
+            ],
+            "responses": [
+                "Sejarah panjangnya bermula ketika orang dari Tiongkok bernama Po Heng datang membawa patung Dewi Kwan Im pada tahun 1850. Patung tersebut menarik perhatian masyarakat, sehingga muncul gagasan untuk membangun tempat ibadah yang dapat digunakan bersama – sama. Akhirnya, pada tahun yang sama, masyarakat sekitar bersama – sama membangun cettiya yang diberi nama Avalokiteswara. Cettiya Avalokiteswara dulu dibangun di tempat yang sekarang menjadi lokasi gudang agen. Karena banjir akibat letusan Krakatau tahun 1883, bangunannya rusak, sehingga patung sang Dewi harus dipindahkan. Pemindahan patung dilakukan oleh Po Heng. Ia membawa patung tersebut ke tempat yang disebut “tanjakan residen”. Tiga belas tahun kemudian yaitu pada 1896, cettiya yang baru didirikan di tempat ini. Cetiya tersebut diberi nama Kuan Im Thing atau persinggahan Dewi Kuan Im. Pembangunannya dibiayai oleh masyarakat. Mereka menggalang dana kemudian menyerahkannya pada Yayasan Mahopadi. Yayasan inilah yang kemudian membangun cettiya Kuan Im Thing. Tanggal 1 Oktober 1898, pemerintah Belanda mengeluarkan izin bangunan. Sejak itu, jalan di depan cettiya disebut jalan Kelenteng. Dua puluh satu tahun kemudian, tepatnya pada 1927, beberapa orang dikirim ke Tiongkok untuk memohon bhikhu atau biksu. Hal ini ditanggapi positif, Tiongkok mengutus Bhikhu Sek Te Thi untuk mengajarkan Dharma Buddha dan membimbing upacara doa. Kedatangan Bikkhu Sek Te Thi menarik perhatian pengunjung. Dari waktu ke waktu jumlah pengunjung cettiya semakin banyak, sehingga bangunannya harus direnovasi. Tahun 1963 cettiya Kwan Im Thing direnovasi. Renovasi selesai dilakukan tahun 1967, terhambat karena pemberontakan G30S / PKI tahun 1965. Pasca renovasi, cettiya berganti nama menjadi Vihara Thay Hin Bio yang berarti vihara yang besar dan jaya."
+            ]
+        },
+        {
+            "tag": "istana_sekala_brak",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai istana sekala brak ? ",
+                "Apa yang kamu ketahui tentang istana sekala brak ?",
+                "Apa yang bisa kamu jelaskan mengenai istana sekala brak ?",
+                "istana sekala brak",
+                "kisah istana sekala brak"
+            ],
+            "responses": [
+                "Beratus-ratus tahun sebelum semodern sekarang, Lampung pernah menjadi pusat Kerajaan Sekala Brak yang kelak diabadikan sebagai leluhurnya orang-orang sana. Di lereng Gunung Persagi, Lampung Barat, Anda bisa menjumpai bekas istana Kerajaan Sekala Brak yang kini dijadikan sebagai situs budaya. Istana Sekala Brak—yang kemudian difungsikan sebagai objek wisata di Lampung—berdiri di atas tanah seluas 3.000 meter. Tahun 1810, Belanda pernah menghancurkannya. Namun, oleh pemerintah setempat Istana Sekala Brak dibangun kembali dan diberi nama baru Gedung Dalom."
+            ]
+        },
+        {
+            "tag": "monumen_gunung_krakatau",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai monumen gunung krakatau ? ",
+                "Apa yang kamu ketahui tentang monumen gunung krakatau ?",
+                "Apa yang bisa kamu jelaskan mengenai monumen gunung krakatau ?",
+                "monumen gunung krakatau",
+                "kisah monumen gunung krakatau"
+            ],
+            "responses": [
+                "Gunung Krakatau pernah meletus hebat tahun 535 M yang menyebabkan terbentuknya Selat Sunda, hilangnya peradaban orang Pasemah Lampung dan Salakanegara Banten selama sekitar 20-30 tahun. Ledakan Gunung Krakatau menyebabkan tsunami, langit gelap, dan cuaca dingin. Pada tahun 1680, pernah terjadi letusan juga, Peristiwa itu pun masih berlanjut terulang kembali yang menyebabkan Krakatau sirna lagi karena letusan kataklismik pada tanggal 26-27 Agustus 1883. Pada tahun 2019, kawasan yang sekarang merupakan cagar alam ini memiliki empat pulau kecil: Pulau Rakata, Pulau Anak Krakatau, Pulau Sertung, dan Pulau Panjang (Rakata Kecil). Berdasarkan kajian geologi, semua pulau ini berasal dari sistem gunung berapi tunggal Krakatau yang pernah ada di masa lalu. Krakatau dikenal dunia karena letusan yang sangat dahsyat pada tahun 1883. Awan panas dan tsunami yang diakibatkannya menewaskan sekitar 36.000 jiwa. Sampai sebelum tanggal 26 Desember 2004, tsunami ini adalah yang terdahsyat di kawasan Samudra Hindia. Suara letusan itu terdengar sampai ke Alice Springs, Australia dan Pulau Rodrigues dekat Afrika, 4.653 kilometer. Daya ledaknya diperkirakan mencapai 30.000 kali bom atom yang diledakkan di Hiroshima dan Nagasaki di akhir Perang Dunia II.  Maka dari itu dibuatlah monument gunung Krakatau untuk mengenang terjadinya bencana tersebut. "
+            ]
+        },
+        {
+            "tag": "museum_lampung_ruwa_jurai",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai museum lampung ruwa jurai ? ",
+                "Apa yang kamu ketahui tentang museum lampung ruwa jurai ?",
+                "Apa yang bisa kamu jelaskan mengenai museum lampung ruwa jurai ?",
+                "museum lampung ruwa jurai",
+                "kisah museum lampung ruwa jurai"
+            ],
+            "responses": [
+                "Museum juga terdapat koleksi yang ditampilkan antara lain koleksi benda budaya yang mewakili dua Komunitas adat dan budaya yang dominan di Lampung, yakni (Saibatin) dan (Penyimbang / Pepadun), kedua komunitas adat dan budaya ini masing-masing memiliki kekhasan dalam hal ritual adat dan budaya serta perangkat atau aksesoris alat pegang pakai, seperti kain tradisional khas Lampung, kain tapis. Rangkaian ritual kedua komunitas adat dan budaya masing-masing ditampilkan berurutan, mulai dari ritual lapahan, bedu’a, kelahiran, cukuran, asah gigi menjelang dewasa, pernikahan, hingga ritual kematian dan sebagainya, museum ini juga menyimpan beberapa peninggalan Radin Intan yang merupakan pahlawan Lampung dan keturunannya, seperti senjata dan lainnya."
+            ]
+        },
+        {
+            "tag": "destinasi_Bangka_Belitung",
+            "patterns": [
+                "Destinasi apa saja yang ada di Bangka Belitung? ",
+                "tempat wisata yang ada di Bangka Belitung apa saja?",
+                "mana saja tempat wisata yang ada di Bangka Belitung?",
+                "Destinasi yang ada di Bangka Belitung",
+                "tempat wisata yang ada di Bangka Belitung",
+                "wisata Bangka Belitung",
+                "tempat wisata Bangka Belitung",
+                "destinasi Bangka Belitung",
+                "wisata Bangka Belitung",
+                "wisata di Bangka Belitung",
+                "destinasi di Bangka Belitung",
+                "mana saja tempat wisata yang ada di Bangka Belitung ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Bangka Belitung, diantaranya yaitu Mercusuar Tanjung Kalian, Museum Timah Muntok, Wisma Ranggam, Museum Garuda, dan Pesanggarahan Manumbing. "
+            ]
+        },
+        {
+            "tag": "mercusuar_tanjung_kalian",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai mercusuar tanjung kalian ? ",
+                "Apa yang kamu ketahui tentang mercusuar tanjung kalian ?",
+                "Apa yang bisa kamu jelaskan mengenai mercusuar tanjung kalian ?",
+                "mercusuar tanjung kalian",
+                "kisah mercusuar tanjung kalian"
+            ],
+            "responses": [
+                "Wisata Sejarah di Belitung merupakan salah satu bangunan peninggalan Belanda yang saat ini bisa kita saksikan bersama kekokohannya. Kota Mentok yang dibangun oleh Belanda sebagai kota pelabuhan menjadi salah satu kota sentral dalam mengatur berbagai macam distribusi kebutuhan saat itu. Karena banyaknya kapal yang akan berlabuh, pada akhirnya Belanda menganggap perlu dibangunnya sebuah mercusuar sebagai penanda tempat labuh kapal yang bersiap menepi. Mercusuar Tanjung Kalian dibangun pada tahun 1862 dan masih kokoh hingga sekarang. Dari puncak bangunan ini, pengunjung bisa menyaksikan indahnya seantero kota Mentok dan sekitarnya."
+            ]
+        },
+        {
+            "tag": "museum_timah_muntok",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai museum timah muntok ? ",
+                "Apa yang kamu ketahui tentang museum timah muntok ?",
+                "Apa yang bisa kamu jelaskan mengenai museum timah muntok ?",
+                "museum timah muntok",
+                "kisah museum timah muntok"
+            ],
+            "responses": [
+                "Museum Timah Muntok adalah salah satu museum yang harus kamu kunjungi saat ke Pulau Bangka untuk mengetahui sedikit banyak tentang pertambangan timah dan perkembangan budaya Melayu. Bangunan museum ini merupakan kantor penambangan timah pada zaman penjajahan Belanda yang juga berfungsi sebagai pusat pemerintahan Belanda di Pulau Bangka. Arsitektur khas Eropanya masih terawat dan tampak megah mesti sudah ada sejak tahun 1915. Dibuka untuk umum sejak 7 November 2013, museum ini memiliki 176 koleksi dan 9 galeri yang menampilkan penambangan timah, sejarah Bangka, Perang Dunia ke II hingga sejarah pengasingan Bung Karno. Berbagai prasasti hingga alat pertambangan timah berumur ratusan tahun terpajang rapi di museum ini. Oiya, kamu juga bisa menikmati tayangan audio visual peristiwa bersejarah di Bangka Belitung di sini. "
+            ]
+        },
+        {
+            "tag": "wisma_ranggam",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai wisma ranggam ? ",
+                "Apa yang kamu ketahui tentang wisma ranggam ?",
+                "Apa yang bisa kamu jelaskan mengenai wisma ranggam ?",
+                "wisma ranggam",
+                "kisah wisma ranggam"
+            ],
+            "responses": [
+                "Wisma Ranggam atau Pesanggrahan Muntok merupakan bangunan bersejarah di Kota Muntok, Bangka Barat yang dibangun pada tahun 1890 oleh pemerintah kolonial Belanda. Bangunan bergaya Eropa ini merupakan tempat pengasingan banyak tokoh-tokoh penting seperti Menteri Luar Negeri Agus Salim dan Wakil Perdana Menteri M Roem. Wisma ini punya enam belas kamar yang satu di antaranya pernah ditinggali oleh Presiden Soekarno, Selain bisa melihat ruang pengasingan, kamu juga bisa leluasa berfoto di halamannya yang luas banget. Karena keunikan arsitektur bangunannya, daerah Wisma Ranggam ini disebut sebagai Kampung Eropa di Bangka. Karena keindahannya, pantas saja Wisma Ranggam ini dijadikan salah satu cagar budaya Indonesia. Nah, untuk mencapai tempat ini dibutuhkan waktu sekitar 2,5 jam berkendara dari pusat kota Pangkal Pinang."
+            ]
+        },
+        {
+            "tag": "museum_garuda",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai museum garuda ? ",
+                "Apa yang kamu ketahui tentang museum garuda ?",
+                "Apa yang bisa kamu jelaskan mengenai museum garuda ?",
+                "museum garuda",
+                "kisah museum garuda"
+            ],
+            "responses": [
+                "Museum Garuda memang letaknya berdekatan dengan Pantai Tongaci yang terkenal dengan laut biru toscanya. Ketika berkunjung, kamu akan melihat koleksi-koleksi antik yang akan membuatmu berdecak kagum. Koleksinya sudah berumur puluhan tahun lho! Nama Garuda disematkan karena banyak sekali patung indah seperti patung Burung Garuda yang langsung didatangkan dari Bali. Di samping museum, terdapat bangunan kayu 2 lantai yang berisi galeri dan perpustakaan. Deretan buku dari zaman kuno hingga masa sekarang terlihat tertata rapi di lantai satu. Untuk lantai 2, kamu bisa menikmati beragam lukisan cantik serta beberapa dokumen penting sebelum dan sesudah kemerdekaan."
+            ]
+        },
+        {
+            "tag": "pesanggrahan_manumbing",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pesanggrahan manumbing ? ",
+                "Apa yang kamu ketahui tentang pesanggrahan manumbing ?",
+                "Apa yang bisa kamu jelaskan mengenai pesanggrahan manumbing ?",
+                "pesanggrahan manumbing",
+                "kisah pesanggrahan manumbing"
+            ],
+            "responses": [
+                "Rumah Pesanggrahan Menumbing adalah salah satu lokasi dari beberapa rumah pengasingan yang pernah di gunakan oleh Bung Karno. Sebagaimana yang kita ketahui bersama bahwa sosok Bung Karno memang merupakan salah satu sosok yang cukup diwaspadai oleh Belanda. Apalagi dengan status beliau yang juga seorang proklamator bapak pendiri bangsa, maka tak mengherankan jika Bung Karno acap kali dibuang dan di asingkan untuk menjauhkan beliau dari pusat pemerintahan. Rumah yang berada di i Tanjung, Mentok, Kabupaten Bangka Barat, Kepulauan Bangka Belitung, ini merupakan salah satu lokasi yang pernah digunakan Belanda untuk mengasingkan Bung Karno dan Bung Hatta. Namun, pada dasarnya tidak hanya kedua Tokoh Nasional itu saja yang pernah di asingkan d rumah ini. ada beberapa tokoh Nasional lain yang juga pernah diasingkan di rumah ini. Tapi, mungkin memang hanya Bung Karno dan Bung Hatta yang paling berkesan dan dikenal. Kedua Tokoh nasional tersebut di asingkan ke lokasi ini pada Bulan Februari 1949. Sebagaimana yang kita ketahui bahwa pada tahun tersebut memang Belanda sedang melangsungkan Serangan ke Ibukota Negara Indonesia. Jika kita berkunjung ke gedung ini maka kita akan bisa melihat beragam barang yang pernah digunakan oleh Bung Karno dan Bung Hatta selama menempati rumah ini. Namun, kini Pesanggrahan ini telah berubah fungsi menjadi sebuah penginapan yang cukup menarik dan bisa dikatakan cukup mewah."
+            ]
+        },
+        {
+            "tag": "destinasi_Banten Serang",
+            "patterns": [
+                "Destinasi apa saja yang ada di Banten? ",
+                "tempat wisata yang ada di Banten apa saja?",
+                "mana saja tempat wisata yang ada di Banten?",
+                "Destinasi yang ada di Banten",
+                "tempat wisata yang ada di Banten",
+                "wisata Banten",
+                "tempat wisata Banten",
+                "destinasi Banten",
+                "wisata Banten",
+                "wisata di Banten",
+                "destinasi di Banten",
+                "mana saja tempat wisata yang ada di Banten ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Banten Serang, diantaranya yaitu Kapal Bosok, Benteng Speelwijk, Keraton Surosowan, Gedung Juang 45. "
+            ]
+        },
+        {
+            "tag": "kapal_bosok",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai kapal bosok ? ",
+                "Apa yang kamu ketahui tentang kapal bosok ?",
+                "Apa yang bisa kamu jelaskan mengenai kapal bosok ?",
+                "kapal bosok",
+                "kisah kapal bosok"
+            ],
+            "responses": [
+                "Tepatnya selama 4 tahun ke 17 Santri Pesantren Darul Salam membangun masjid berbentuk kapal. Tepatnya ada di lingkungan Drangong, Kelurahan Curugmanis, Kota Serang. Sejarah Kapal Bosok dibangun karena ada sebuah cerita tentang keberadaan kapal yang membusuk di kampung itu. Kemudian jadilah Masjid Kapal Bosok yang artinya masjid kapal yang membusuk gengs. sejarah Kapal Bosok bermula pada kisaran abad ke-16. Saat itu ada penjajah yang bersandar di pelabuhan Karangantu, Serang.  Ternyata mereka berkehendak untuk menjajah dan mengambil segala sesuatu di sana. Karena gak terima dengan perlakuak Belanda, ada seorang lelaki yang bernama Ki Angga Derpa yang ingin menyelamatkan dokumen dan harta kekayaan di daerahnya. Ki Angga nyabut beringin. Di dalamnya ada tempurung isinya 2 macan. Laki dan betina yang ada anak kecilnya. Dibawa beringin ke kerumunan Belanda yang menjajah. Begitu ditaro, macan keluar. Belanda kucar-kacir, ujar Ahmad Almawadi selaku pengurus masjid. Karena meresahkan, akhirnya Belanda mencari Ki Angga Derpa. Akhirnya ditemukanlah di kampung Aon yang saat ini bernama Lingkungan Drangong. Ia ditangkap kemudia dihukum di dalam kapal. Setelah dihukum Belanda meninggalkan beliau di dalam kapal. Singkat ceritanya, kapal tersebut akhirnya terbawa arus sampai daerah Curug yang lokasinya padahal jauh dari pesisir. Ki Angga Derpa kemudian mengambil cambuk dan memukulkan ke kapal. Kapal dicambuk. Kapal, sira dicambuk bosok salawase (kapal, kamu dicambuk busuk selamanya), ujar Ahmad menirukan cerita yang menurutnya diturunkan turun temurun tersebut. Dan akhirnya Belanda mencari dan kapal itu tak ttersisa, hanya ada batu karang dan sisa besi pelatok kapal. Di sekitar masjid Kapal Bosok ada makam Syekh Abdullah Angga Derpa Kapal Bosok. Di makam itu ada  tulisan berupa silsilah mengenainya mulai dari Nabi Adam, Nabi Muhammad sampai angka 83 Syekh Abdullah Angga Derpa."
+            ]
+        },
+        {
+            "tag": "benteng_speelwijk",
+            "patterns": [
+                "benteng Speelwijk",
+                "Bisakah kamu ceritakan mengenai benteng Speelwijk ? ",
+                "Apa yang kamu ketahui tentang benteng Speelwijk ?",
+                "Apa yang bisa kamu jelaskan mengenai benteng Speelwijk ?",
+                "kisah benteng Speelwijk"
+            ],
+            "responses": [
+                "Sebelum membangun Benteng Speelwijk di Kasemen, Belanda lebih dulu meminta izin kepada Sultan Haji. Belanda mengaku akan menggunakan benteng ini sebagai tempat berlindung dari serangan pengikut Sultan Ageng Tirtayasa. Sultan Tirtayasa adalah ayah Sultan Haji yang terkenal sangat anti Belanda, berbeda dengan putranya. Pembangunan Benteng Speelwijk dimulai pada 1681 dan selesai pada 1684, kemudian mengalami perluasan pada 1731. Dalam mendirikan benteng, Hendrick Loocaszoon Cardeel dibantu oleh tenaga dari orang-orang China yang dibayar dengan upah sangat rendah. Benteng Speelwijk menjadi salah satu simbol kekuasaan Belanda di wilayah Banten setelah Sultan Haji menjalin kerjasama dengan VOC. Keberadaan benteng ini semakin mengokohkan posisi Belanda dalam usahanya memonopoli perdagangan lada dan merica dari Lampung Selatan. Benteng ini juga digunakan sebagai basis pertahanan dan pemukiman orang-orang Belanda di Banten. Oleh karena itu, di sekitar benteng dapat ditemukan makam para bangsawan dan prajurit Belanda. Selain itu, Benteng Speelwijk juga digunakan oleh Belanda untuk mengawasi kegiatan yang dilakukan Kesultanan Banten."
+            ]
+        },
+        {
+            "tag": "keraton_surosowan",
+            "patterns": [
+                "keraton surosowan",
+                "Bisakah kamu ceritakan mengenai keraton surosowan ? ",
+                "Apa yang kamu ketahui tentang keraton surosowan ?",
+                "Apa yang bisa kamu jelaskan mengenai keraton surosowan ?",
+                "kisah keraton surosowan"
+            ],
+            "responses": [
+                "Keraton Surosowan diperkirakan dibangun antara tahun 1526-1570 saat Pemerintahan Sultan Banten yang pertama yaitu Sultan Maulana Hasanudin. Sejarah pembangunan keraton ini tidak lepas dari pemberian wilayah yang diserahkan oleh Sunan Gunung Jati kepada anaknya Sultan Maulana Hasanudin. Layaknya keraton di Jawa, Keraton Surosowan juga berfungsi sebagai tempat tinggal sultan beserta keluarga dan pengikutnya. fungsi lainnya, keraton juga menjadi pusat kerajaan dalam menjalankan pemerintahan Kerjaan Banten. Hal ini terlihat dalam tata pola yang mengikuti kerajaan Islam lainnya di Jawa yang memiliki Alun-Alun di sebelah utara, Masjid Agung di bagian barat dan pasar serta pelabuhan di sisi timur dan utara keraton. Dinding berupa benteng setinggi 2 meter dengan lebar 5 meter ini dibangun untuk meminimalisir serangan Belanda yang pernah menyerang keraton. Atas jasanya, ahli bangunan berkewarganegaraan Belanda yang masuk islam ini diberi gelar oleh Sultan dengan nama Pangeran Wiraguna. Luas benteng bersejarah yang mencapai 4 hektar ini membuat pemerintah Provinsi Banten menetapkan reruntuhan ini sebagai cagar budaya yang dilindungi dan kaya akan sejarah Banten. Karenanya banyak pengunjung yang sering datang hanya untuk memlihat dan sedikit membayangkan bagaimana kejayaan Kerajaan Banten lewat reruntuhan Keraton Surosowan."
+            ]
+        },
+        {
+            "tag": "gedung_juang_45",
+            "patterns": [
+                "gedung juang 45",
+                "Bisakah kamu ceritakan mengenai gedung juang 45 ? ",
+                "Apa yang kamu ketahui tentang gedung juang 45 ?",
+                "Apa yang bisa kamu jelaskan mengenai gedung juang 45 ?",
+                "kisah gedung juang 45"
+            ],
+            "responses": [
+                "Banten merupakan salah satu markas yang cukup penting bagi para penjajah dalam melancarkan serangan-serangan ke titik-titik vital bangsa Indonesia. Hal ini dikarenakan lokasinya yang dekat pusat pemerintahan Indonesia pada masa itu, memang membuat Banten banyak dijadikan pusat pergerakan penjajah. Pada masa perjuangan fisik banyak sekali moment-moment atau kejadian pemberontakan yang terjadi pada kawasan Banten. Salah satunya terjadi pada tanggal 10 Oktober 1945 yaitu perebutan markas Kempetai yang berada di Sebelah Barat Alun-Alun Serang. Perabutan markas tersebut menjadi momen yang sangat penting dalam perjuangan militer. Karena banyak yang tekah mengetahui bahwa tentara kempetai adalah salah satu tentara terbaik yang dimiliki oleh pihak Jepang. Tentara ini sendiri sering melakukan tugas khusus yang berhubungan dengan penyerangan markas-markas militer Indonesia. Perang perebutan markas kempetai ini sendiri terjadi dalam tiga hari peperangan yang cukup sengit, setelah markas berhasil direbut kemudian dijadikan salah satu markas pusat Tentara Keamanan Rakyat (TKR). Kini gedung ini telah menjadi salah satu tempat wisata di Serang yang cukup sering untuk di kunjungi. Bangunan dari gedung ini sendiri masih dipertahankan dengan baik, agar tidak terjadi perubahan yang terlalu banyak. "
+            ]
+        },
+        {
+            "tag": "destinasi jawa barat",
+            "patterns": [
+                "Destinasi apa saja yang ada di Jawa Barat? ",
+                "tempat wisata yang ada di Jawa Barat apa saja?",
+                "mana saja tempat wisata yang ada di Jawa Barat?",
+                "Destinasi yang ada di Jawa Barat",
+                "tempat wisata yang ada di Jawa Barat",
+                "wisata Jawa Barat",
+                "tempat wisata Jawa Barat",
+                "destinasi Jawa Barat",
+                "wisata Jawa Barat",
+                "wisata di Jawa Barat",
+                "destinasi di Jawa Barat",
+                "mana saja tempat wisata yang ada di Jawa Barat ?"
+            ],
+            "responses": [
+                "Tempat Wisata yang ada di Jawa Barat salah satunya yang wajib kalian kunujungi yaitu ada pantai Ujung genteng yang berada di (Ciracap, Sukabumi, Jawa Barat, Indonesia), Pantai Pasir Putih yang berada di (Pangandaran, Ciamis, jabar), Pantai Pelabuha nratu yang terletak di (Kecamatan Pelabuhan Ratu, Sukabumi),Taman Nasional Gunung Halimun Salak yang berada di (Jl. Raya Cipanas, Kabandungan, Sukabumi Regency) dan Petilasan Prabu Siliwangi yang berada di (Pajajar, rajagaluh, Majalengka)"
+            ]
+        },
+        {
+            "tag": "destinasi_Jakarta",
+            "patterns": [
+                "Destinasi apa saja yang ada di Jakarta? ",
+                "tempat wisata yang ada di Jakarta apa saja?",
+                "mana saja tempat wisata yang ada di Jakarta?",
+                "Destinasi yang ada di Jakarta",
+                "tempat wisata yang ada di Jakarta",
+                "wisata Jakarta",
+                "tempat wisata Jakarta",
+                "destinasi Jakarta",
+                "wisata Jakarta",
+                "wisata di Jakarta",
+                "destinasi di Jakarta",
+                "mana saja tempat wisata yang ada di Jakarta ?"
+            ],
+            "responses": [
+                "Tempat wisata yang ada di Jakarta, diantaranya yaitu Tugu Proklamasi, Masjid Istiqlal, dan Museum Sumpah Pemuda. "
+            ]
+        },
+        {
+            "tag": "tugu_proklamasi",
+            "patterns": [
+                "tugu proklamasi",
+                "Bisakah kamu ceritakan mengenai tugu proklamasi ? ",
+                "Apa yang kamu ketahui tentang tugu proklamasi ?",
+                "Apa yang bisa kamu jelaskan mengenai tugu proklamasi ?",
+                "kisah tugu proklamasi"
+            ],
+            "responses": [
+                "Tugu Proklamasi berlokasi di area kompleks Taman Proklamasi, Jakarta Pusat. Dulu kala, tempat ini merupakan rumah tinggal bapak proklamator sekaligus presiden pertama republic Indonesia Ir. Soekarno yang ketika itu beralamat di jalan pegangsangan timur no 56 di tempat ini bung karno dan hatta memproklamasikan kemerdekaan Indonesia pada 17 Agustus 1945. Tugu ini diresmikan pada 17 agustus 1972 oleh Menteri penerangan saat itu, diantara yang hadir adalah proklamator dan wakil presiden pertama Mohammad Hatta kemudian pada tanggal 17 Agustus 1980 presiden kedua soeharto meresmikan Monumen Proklamasi. "
+            ]
+        },
+        {
+            "tag": "masjid_istiqlal",
+            "patterns": [
+                "masjig istiqlal",
+                "Bisakah kamu ceritakan mengenai masjid istiqlal ? ",
+                "Apa yang kamu ketahui tentang masjid istiqlal ?",
+                "Apa yang bisa kamu jelaskan mengenai masjid istiqlal ?",
+                "kisah masjid istiqlal"
+            ],
+            "responses": [
+                "Istiqlal yang berarti kemerdekaan merupakan masjid terbesar di Asia Tenggara dengan daya tampung sekitar 120.000 orang. Mesjid Istiqlal yang berarti “kemerdekaan” ini dibangun selama 17 tahun. Kendati digagas Presiden Soekarno, Presiden Soeharto yang meresmikannya pada 22 Februari 1978. Terletak di jalan Taman Wijaya Kusuma, Jakarta Pusat, kubah Mesjid Istiqlal berdiameter 45 meter yang ditopang 12 pilar bundar, dengan balkon empat tingkat. Dalam kunjungan singkatnya selama 18 jam di Indonesia pada 2010, Presiden Amerika Serikat, Barack Obama, sempat mengunjungi Masjid Istiqlal yang dipujinya sebagai simbol toleransi beragama yang menginspirasi dunia."
+            ]
+        },
+        {
+            "tag": "Museum_sumpah_pemuda",
+            "patterns": [
+                "museum sumpah pemuda",
+                "Bisakah kamu ceritakan mengenai museum sumpah pemuda ? ",
+                "Apa yang kamu ketahui tentang museum sumpah pemuda ?",
+                "Apa yang bisa kamu jelaskan mengenai museum sumpah pemuda ?",
+                "kisah museum sumpah pemuda"
+            ],
+            "responses": [
+                "Sebuah museum sejarah perjuangan kemerdekaan Republik Indonesia yang berada di jalan kramat raya no 106, Jakarta Pusat dan dikelola oleh kementrian Pendidikan dan kebudayaan Republik Indonesia. Sejak 1925 gedung Kramat 106 menjadi tempat tinggal pelajar yang tergabung dalam Jong Java. Sejak 1926, penghuni gedung ini makin beragam. Mereka kebanyakan aktivis pemuda dari daerahnya masing-masing. Kegiatan penghuni gedung itu juga makin beragam. Selain kesenian, mahasiswa di gedung ini aktif dalam kepanduan dan olahraga. Gedung ini juga menjadi markas Perhimpunan Pelajar-pelajar Indonesia (PPPI), yang berdiri pada September 1926, usai kongres pemuda pertama. Pemerintah Hindia Belanda selalu mengawasi dengan ketat kegiatan rapat pemuda. Pemerintah memang mengakui hak penduduk di atas 18 tahun mengadakan perkumpulan dan rapat. Hingga akhirnya tempat ini digunakan menjadi Museum Sumpah Pemuda."
+            ]
+        },
+        {
+            "tag": "destinasi_Bandung",
+            "patterns": [
+                "Destinasi apa saja yang ada di Bandung? ",
+                "tempat wisata yang ada di Bandung apa saja?",
+                "mana saja tempat wisata yang ada di Bandung?",
+                "tempat wisata yang ada di Bandung",
+                "wisata Bandung",
+                "tempat wisata Bandung",
+                "destinasi Bandung",
+                "wisata Bandung",
+                "wisata di Bandung",
+                "destinasi di Bandung",
+                "mana saja tempat wisata yang ada di Bandung ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Bandung, diantaranya yaitu Monumen Bandung Lautan Api, Museum Konferensi Asia Afrika, Goa Belanda, dan Gedung Indonesia Menggugat.  "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Bandung_Monumen_Lautan_Api",
+            "patterns": [
+                "Apa sejarah dibangunnya Monumen Lautan Api? ",
+                "Jelaskan dibangunnya Monumen Lautan Api?",
+                "Bagaimana awal Mula Monumen Lautan Api?"
+            ],
+            "responses": [
+                "Bangunan bersejarah di Bandung yang wajib kamu kunjungi selanjutnya adalah Monumen Bandung Lautan Api. Monumen yang berada di Jalan BKR Ciateul ini selalu dipadati pengunjung saat akhir pekan atau saat musim liburan. Kebanyakan dari mereka menjadikan monumen ini sebagai background foto yang menarik. Monumen Bandung Lautan Api ini dibangun untuk mengenang perjuangan rakyat Bandung saat mereka berperang melawan serangan tentara sekutu demi mempertahankan kota mereka. Peristiwa ini kemudian dikenal sebagai peristiwa Bandung Lautan Api. Kamu pun bisa mengunjungi monument ini secara gratis dan jangan lewatkan pemandangan saat sore hari karena sangat indah.  "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Museum_Konferensi_Asia_Afrika",
+            "patterns": [
+                "Apa sejarah dibangunnya Museum Konferensi Asia Afrika? ",
+                "Jelaskan dibangunnya Museum Konferensi Asia Afrika?",
+                "Bagaimana awal Mula Museum Konferensi Asia Afrika?"
+            ],
+            "responses": [
+                "Museum yang satu ini juga tak kalah ikonik dengan Gedung Sate karena sama-sama memiliki sejarah penting tak hanya bagi kota Bandung, namun juga bagi Indonesia. Museum ini dulunya digunakan oleh perkumpulan warga elit Eropa yang tinggal di Bandung bernama Societeit Concordia. Bangunan museum ini memiliki sudut yang menghadap ke Jalan Asia Afrika dan Jalan Braga, yang mana dulunya sudut tersebut berbentuk sudut kaku yang kemudian direnovasi menjadi melingkar seperti saat ini. Gedung ini terkenal bersejarah karena menjadi saksi dan menyimpan benda-benda bersejarah dari Konferensi Asia Afrika pada tahun 1955. "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Goa_Belanda",
+            "patterns": [
+                "Apa sejarah dibangunnya Goa Belanda? ",
+                "Jelaskan dibangunnya Goa Belanda?",
+                "Bagaimana awal Mula Goa Belanda?"
+            ],
+            "responses": [
+                "Bangunan bersejarah di Bandung yang satu ini bisa kamu temukan di kawasan Taman Hutan Raya Djuanda di Dago. Konon pada masa penjajahan Belanda goa ini digunakan sebagai tangki untuk penyimpanan cadangan air di musim kemarau. Tak hanya itu, Goa Belanda ini juga pernah menjadi Stasiun Radio Belanda saat Perang Dunia II. Saat ini, Goa Belanda ini menjadi lokasi wisata sejarah di Bandung yang cukup populer. Selain itu, wisata ini juga menjadi tempat untuk menguji nyali karena goa ini dianggap sebagai salah satu tempat yang angker di Bandung. Kamu bisa menjelajah goa ini bersama pemandu agar tidak tersesat di dalamnya "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Gedung_Indonesia_Menggugat",
+            "patterns": [
+                "Apa sejarah dibangunnya Gedung Indonesia Menggugat? ",
+                "Jelaskan dibangunnya Gedung Indonesia Menggugat?",
+                "Bagaimana awal Mula adanya Gedung Indonesia Menggugat?"
+            ],
+            "responses": [
+                "Gedung Indonesia Menggugat juga menjadi salah satu bangunan bersejarah di Bandung yang tak boleh kamu lewatkan. Bangunan ini konon dibangun sekitar tahun 1907 dan dulunya merupakan rumah warga Belanda sebelum dialih fungsikan sebagai Pengadilan Pemerintah Belanda yang digunakan untuk mengadilu pejuang kemerdekaan, termasuk Soekarno, Maskoen, Sartono hingga Satromolejono. Nama Indonesia Menggugat pun dikenal sebagai salah satu peristiwa bersejarah dimana saat itu Soekarno diadili dan memberontak melalui pembelaan berjudul “Indonesia Menggugat”. Peristiwa tersebut tentu mengejutkan pemerintan Belanda saat itu dan sampai saat ini dikenal sebagai salah satu peristiwa bersejarah yang selalu dikenang. Gedung Indonesia Menggugat ini memang telah berusia ratusan tahun namun maish berdiri kokoh hingga saat ini. Setelah beberapa kali mengalami perubahan fungsi, gedung ini sekarang menjadi tempat diselenggarakannya berbagai kegiatan social, seni atau lainnya. "
+            ]
+        },
+        {
+            "tag": "destinasi_Semarang",
+            "patterns": [
+                "Destinasi apa saja yang ada di Semarang? ",
+                "tempat wisata yang ada di Semarang apa saja?",
+                "mana saja tempat wisata yang ada di Semarang?",
+                "tempat wisata yang ada di Semarang",
+                "wisata Semarang",
+                "tempat wisata Semarang",
+                "destinasi Semarang",
+                "wisata Semarang",
+                "wisata di Semarang",
+                "destinasi di Semarang",
+                "mana saja tempat wisata yang ada di Semarang ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Semarang, diantaranya yaitu Kota Lama Semarang, Museum Kereta Api Ambarawa, Tugu Muda, dan Lawang Sewu. "
+            ]
+        },
+        {
+            "tag": "destinasi_yogyakarta_erdi",
+            "patterns": [
+                "Destinasi yang ada di yogyakarta",
+                "Destinasi yang ada di Daerah istimewa yogyakarta",
+                "Destinasi apa saja yang ada di Yogyakarta? ",
+                "tempat wisata yang ada di Yogyakarta apa saja?",
+                "mana saja tempat wisata yang ada di Yogyakarta?",
+                "tempat wisata yang ada di Yogyakarta",
+                "wisata Yogyakarta",
+                "tempat wisata Yogyakarta",
+                "destinasi Yogyakarta",
+                "wisata Yogyakarta",
+                "wisata di Yogyakarta",
+                "destinasi di Yogyakarta",
+                "mana saja tempat wisata yang ada di Yogyakarta ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di Nanggroe aceh darussalam yaitu CANDI BOROBUDUR, CANDI PRAMBANAN, MALIOBORO, OBELIX HILLS, PANTAI PARANGTRITIS"
+            ]
+        },
+        {
+            "tag": "ibukota_yogyakarta",
+            "patterns": [
+                "Nama ibu kota daerah istimewa yogyakarta",
+                "ibu kota daerah istimewa yogyakarta",
+                "apa nama ibu kota daerah istimewa yogyakarta ?",
+                "ibukota daerah istimewa yogyakarta"
+            ],
+            "responses": [
+                "Nama ibukota Daerah Istimewa Yogyakarta yaitu Yogyakarta",
+                "Nama ibu kota Daerah Istimewa Yogyakarta Yogyakarta yaitu Yogyakarta"
+            ]
+        },
+        {
+            "tag": "jawa",
+            "patterns": [
+                "wisata jawa",
+                "Destinasi yang ada di jawa",
+                "Destinasi apa saja yang ada di Jawa  ",
+                "tempat wisata yang ada di Jawa apa saja?",
+                "mana saja tempat wisata yang ada di Jawa ",
+                "tempat wisata yang ada di Jawa",
+                "wisata Jawa",
+                "tempat wisata Jawa",
+                "destinasi Jawa",
+                "wisata Jawa",
+                "wisata di Jawa",
+                "destinasi di Jawa",
+                "mana saja tempat wisata yang ada di Jawa ?"
+            ],
+            "responses": [
+                "Kamu Mau tau seputar wisata dan budaya di Jawa Mana nih, Karena untuk area Jawa masih terbagi dengan 3 Provinsi yaitu Jawa Timur, Jawa Tengah dan Jawa Barat, Silahkan pilih salah satu ya.....😊"
+            ]
+        },
+        {
+            "tag": "destinasi_jawa_timur",
+            "patterns": [
+                "Destinasi yang ada di jawa timur",
+                "Destinasi apa saja yang ada di Jawa Timur? ",
+                "tempat wisata yang ada di Jawa Timur apa saja?",
+                "mana saja tempat wisata yang ada di Jawa Timur?",
+                "tempat wisata yang ada di Jawa Timur",
+                "wisata Jawa Timur",
+                "tempat wisata Jawa Timur",
+                "destinasi Jawa Timur",
+                "wisata Jawa Timur",
+                "wisata di Jawa Timur",
+                "destinasi di Jawa Timur",
+                "mana saja tempat wisata yang ada di Jawa Timur ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di jawa timur yaitu Kelenteng Sanggar Agung, Atlantis Land Surabaya, Museum De Javasche Bank, Taman Pantai Ria Kenjeran, wisata perahu kalimas surabaya"
+            ]
+        },
+        {
+            "tag": "Kalimantan",
+            "patterns": [
+                "wisata Kalimantan",
+                "Destinasi yang ada di Kalimantan",
+                "Destinasi apa saja yang ada di Kalimantan  ",
+                "tempat wisata yang ada di Kalimantan apa saja?",
+                "mana saja tempat wisata yang ada di Kalimantan ",
+                "tempat wisata yang ada di Kalimantan",
+                "wisata Kalimantan",
+                "tempat wisata Kalimantan",
+                "destinasi Kalimantan",
+                "wisata Kalimantan",
+                "wisata di Kalimantan",
+                "destinasi di Kalimantan",
+                "mana saja tempat wisata yang ada di Kalimantan ?"
+            ],
+            "responses": [
+                "Kamu Mau tau seputar wisata dan budaya yang ada di Kalimantan mana nih, Karena untuk area Kalimantan masih terbagi dengan 5 Provinsi yaitu Kalimantan Barat, Kalimantan Timur, Kalimantan Selatan, Kalimantan Tengah dan Kalimantan Utara. Silahkan pilih salah satu ya.....😊"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_timur",
+            "patterns": [
+                "Destinasi yang ada di kalimantan timur",
+                "Destinasi apa saja yang ada di Kalimantan Timur? ",
+                "tempat wisata yang ada di Kalimantan Timur apa saja?",
+                "mana saja tempat wisata yang ada di Kalimantan Timur?",
+                "tempat wisata yang ada di Kalimantan Timur",
+                "wisata Kalimantan Timur",
+                "tempat wisata Kalimantan Timur",
+                "destinasi Kalimantan Timur",
+                "wisata Kalimantan Timur",
+                "wisata di Kalimantan Timur",
+                "destinasi di Kalimantan Timur",
+                "mana saja tempat wisata yang ada di Kalimantan Timur ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan timur yaitu Pulau Beras Basah, Desa Budaya Pampang, Sungai Mahakam, Pulau Kumala, Ladang Budaya Tenggarong"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_barat",
+            "patterns": [
+                "Destinasi yang ada di kalimantan barat",
+                "Destinasi apa saja yang ada di Kalimantan Barat? ",
+                "tempat wisata yang ada di Kalimantan Barat apa saja?",
+                "mana saja tempat wisata yang ada di Kalimantan Barat?",
+                "tempat wisata yang ada di Kalimantan Barat",
+                "wisata Kalimantan Barat",
+                "tempat wisata Kalimantan Barat",
+                "destinasi Kalimantan Barat",
+                "wisata Kalimantan Barat",
+                "wisata di Kalimantan Barat",
+                "destinasi di Kalimantan Barat",
+                "mana saja tempat wisata yang ada di Kalimantan Barat ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan barat yaitu Istana Kadriah, Rumah Radakng, pantai pasir panjang, Khatulistiwa Park, Meseum Kalimantan Barat"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_tengah",
+            "patterns": [
+                "Destinasi yang ada di kalimantan tengah",
+                "Destinasi apa saja yang ada di Kalimantan Tengah? ",
+                "tempat wisata yang ada di Kalimantan Tengah apa saja?",
+                "mana saja tempat wisata yang ada di Kalimantan Tengah?",
+                "tempat wisata yang ada di Kalimantan Tengah",
+                "wisata Kalimantan Tengah",
+                "tempat wisata Kalimantan Tengah",
+                "destinasi Kalimantan Tengah",
+                "wisata Kalimantan Tengah",
+                "wisata di Kalimantan Tengah",
+                "destinasi di Kalimantan Tengah",
+                "mana saja tempat wisata yang ada di Kalimantan Tengah ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan tengah yaitu meseum balanga, taman pasuk kameloh, taman nasional sebangau, Tugu Soekarno, Eduwisata Kalimantan Hutan Itah"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_selatan",
+            "patterns": [
+                "Destinasi yang ada di kalimantan selatan",
+                "Destinasi apa saja yang ada di Kalimantan Selatan? ",
+                "tempat wisata yang ada di Kalimantan Selatan apa saja?",
+                "mana saja tempat wisata yang ada di Kalimantan Selatan?",
+                "tempat wisata yang ada di Kalimantan Selatan",
+                "wisata Kalimantan Selatan",
+                "tempat wisata Kalimantan Selatan",
+                "destinasi Kalimantan Selatan",
+                "wisata Kalimantan Selatan",
+                "wisata di Kalimantan Selatan",
+                "destinasi di Kalimantan Selatan",
+                "mana saja tempat wisata yang ada di Kalimantan Selatan ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan selatan yaitu pasar terapung Lok Baintan, Museum Lambung Mangkurat, Taman Hutan Raya Sultan Adam, Pulau Pinus, Bukit Batas Aranio"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_utara",
+            "patterns": [
+                "Destinasi yang ada di kalimantan utara",
+                "Destinasi apa saja yang ada di Kalimantan Utara? ",
+                "tempat wisata yang ada di Kalimantan Utara apa saja?",
+                "mana saja tempat wisata yang ada di Kalimantan Utara?",
+                "tempat wisata yang ada di Kalimantan Utara",
+                "wisata Kalimantan Utara",
+                "tempat wisata Kalimantan Utara",
+                "destinasi Kalimantan Utara",
+                "wisata Kalimantan Utara",
+                "wisata di Kalimantan Utara",
+                "destinasi di Kalimantan Utara",
+                "mana saja tempat wisata yang ada di Kalimantan Utara ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan utara yaitu Tugu Cinta Damai, Kebun Raya Binusan, Museum Kesultanan Bulungan, Taman Tepian Tanjung Selor, Wisata Alam Gunung Rian"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_bali_ridha",
+            "patterns": [
+                "Destinasi wisata yang ada di Bali ? ",
+                "Destinasi wisata apa saja yang ada di Bali ? ",
+                "tempat wisata yang rekomended di Bali",
+                "apa saja tempat wisata yang ada di Bali ?",
+                "Destinasi yang ada di Bali",
+                "Destinasi apa saja yang ada di Bali? ",
+                "tempat wisata yang ada di Bali apa saja?",
+                "mana saja tempat wisata yang ada di Bali?",
+                "tempat wisata yang ada di Bali",
+                "wisata Bali",
+                "tempat wisata Bali",
+                "destinasi Bali",
+                "wisata Bali",
+                "wisata di Bali",
+                "destinasi di Bali",
+                "mana saja tempat wisata yang ada di Bali ?"
+            ],
+            "responses": [
+                "Bali sebagai tempat tujuan wisata yang lengkap dan terpadu memiliki banyak sekali tempat wisata menarik, antara lain: Pantai Kuta, Pura Tanah Lot, Pantai Padang-Padang, Danau Beratan Bedugul, Garuda Wisnu Kencana (GWK), Pantai Lovina dengan Lumba Lumbanya, Pura Besakih, Uluwatu, Ubud, Munduk, Kintamani, Amed, Tulamben, Pulau Menjangan dan masih banyak yang lainnya. Kini, Bali juga memiliki beberapa pusat wisata yang sarat edukasi untuk anak-anak seperti kebun binatang, museum tiga dimensi, taman bermain air, dan tempat penangkaran kura-kura."
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_nusa_tenggara_timur",
+            "patterns": [
+                "Destinasi wisata yang ada di Nusa Tenggara Timur ? ",
+                "Destinasi wisata apa saja yang ada di Nusa Tenggara Timur ? ",
+                "tempat wisata yang rekomended di Nusa Tenggara Timur",
+                "apa saja tempat wisata yang ada di Nusa Tenggara Timur ?",
+                "Destinasi yang ada di Nusa Tenggara Timur",
+                "Destinasi apa saja yang ada di Nusa Tenggara Timur? ",
+                "tempat wisata yang ada di Nusa Tenggara Timur apa saja?",
+                "mana saja tempat wisata yang ada di Nusa Tenggara Timur?",
+                "tempat wisata yang ada di Nusa Tenggara Timur",
+                "wisata Nusa Tenggara Timur",
+                "tempat wisata Nusa Tenggara Timur",
+                "destinasi Nusa Tenggara Timur",
+                "wisata Nusa Tenggara Timur",
+                "wisata di Nusa Tenggara Timur",
+                "destinasi di Nusa Tenggara Timur",
+                "Destinasi wisata yang ada di NTT ? ",
+                "Destinasi wisata apa saja yang ada di NTT ? ",
+                "tempat wisata yang rekomended di NTT",
+                "apa saja tempat wisata yang ada di NTT ?",
+                "Destinasi yang ada di NTT",
+                "Destinasi apa saja yang ada di NTT? ",
+                "tempat wisata yang ada di NTT apa saja?",
+                "mana saja tempat wisata yang ada di NTT?",
+                "tempat wisata yang ada di NTT",
+                "wisata NTT",
+                "tempat wisata NTT",
+                "destinasi NTT",
+                "wisata NTT",
+                "wisata di NTT",
+                "destinasi di NTT"
+            ],
+            "responses": [
+                "Beberapa tempat wisata yang ada di provinsi Nusa Tenggara Timur yakni: Pulau Komodo dengan Komodo, Danau Kelimutu di Flores, 3 danau kawah dengan warna berbeda, Gunung Mutis di Timor Tengah Selatan, Semana Santa di Larantuka, Rumah adat dan pasola di Pulau Sumba, Air Terjun Waimarang Sumba Timur, Penyelaman di Pulau Alor, Pantai Nemberalla di Rote Ndao, Pantai Pink di Pulau Padar, Rumah Adat di Kampung Bena, Bajawa-Kabupaten Ngada, Taman Wisata 17 Pulau di Riung, Kabupaten Ngada, Taman Wisata Air Panas Mengeruda Soa, Bajawa- Kabupaten Ngada, Kelabba Madja di Sabu Raijua, Tradisi berburu Paus di Lembata, Rumah Adat Wae Rebo di Manggarai, Kampung Adat Bena, di Bajawa"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_nusa_tenggara_barat",
+            "patterns": [
+                "Destinasi wisata yang ada di Nusa Tenggara Barat ? ",
+                "Destinasi wisata apa saja yang ada di Nusa Tenggara Barat ? ",
+                "tempat wisata yang rekomended di Nusa Tenggara Barat",
+                "apa saja tempat wisata yang ada di Nusa Tenggara Barat ?",
+                "Destinasi yang ada di Nusa Tenggara Barat",
+                "Destinasi apa saja yang ada di Nusa Tenggara Barat? ",
+                "tempat wisata yang ada di Nusa Tenggara Barat apa saja?",
+                "mana saja tempat wisata yang ada di Nusa Tenggara Barat?",
+                "tempat wisata yang ada di Nusa Tenggara Barat",
+                "wisata Nusa Tenggara Barat",
+                "tempat wisata Nusa Tenggara Barat",
+                "destinasi Nusa Tenggara Barat",
+                "wisata Nusa Tenggara Barat",
+                "wisata di Nusa Tenggara Barat",
+                "destinasi di Nusa Tenggara Barat",
+                "Destinasi wisata yang ada di NTB ? ",
+                "Destinasi wisata apa saja yang ada di NTB ? ",
+                "tempat wisata yang rekomended di NTB",
+                "apa saja tempat wisata yang ada di NTB ?",
+                "Destinasi yang ada di NTB",
+                "Destinasi apa saja yang ada di NTB? ",
+                "tempat wisata yang ada di NTB apa saja?",
+                "mana saja tempat wisata yang ada di NTB?",
+                "tempat wisata yang ada di NTB",
+                "wisata NTB",
+                "tempat wisata NTB",
+                "destinasi NTB",
+                "wisata NTB",
+                "wisata di NTB",
+                "destinasi di NTB"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi tempat wisata yang terdapat di Provinsi NTB: Pantai Senggigi, Pantai Pink, Gili Trawangan, Taman Narmada, Gunung Rinjani, Pura Batu Bolong, Pantai Kuta Lombok, Pantai Sire, Pantai Sekotong, Batu Layar, Ampenan Kota Tua, Gunung Tambora, Pulau Satonda, Pulau Kenawa"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_gorontalo",
+            "patterns": [
+                "Destinasi wisata yang ada di gorontalo ? ",
+                "Destinasi wisata apa saja yang ada di gorontalo ? ",
+                "tempat wisata yang rekomended di gorontalo",
+                "apa saja tempat wisata yang ada di gorontalo ?",
+                "Destinasi yang ada di Gorontalo",
+                "Destinasi apa saja yang ada di Gorontalo? ",
+                "tempat wisata yang ada di Gorontalo apa saja?",
+                "mana saja tempat wisata yang ada di Gorontalo?",
+                "tempat wisata yang ada di Gorontalo",
+                "wisata Gorontalo",
+                "tempat wisata Gorontalo",
+                "destinasi Gorontalo",
+                "wisata Gorontalo",
+                "wisata di Gorontalo",
+                "destinasi di Gorontalo"
+            ],
+            "responses": [
+                "Berikut adalah beberapa objek wisata ternama yang ada di Provinsi Gorontalo : Pulau Saronde, Pulo Cinta, Wisata Hiu Paus, Benteng Otanaha, Menara Pakaya Limboto, Air Terjun Ayuhulalo, Air Terjun Taludaa, Danau Perintis, Monumen Nani Wartabone, Taman Laut Bitila, Pantai Bolihutuo, Panorama Alam Gunung Tilongkabila, Pantai Kelapa Dua dan Pohon Cinta"
+            ]
+        },
+        {
+            "tag": "Sulawesi",
+            "patterns": [
+                "wisata Sulawesi",
+                "Destinasi yang ada di Sulawesi",
+                "Destinasi apa saja yang ada di Sulawesi  ",
+                "tempat wisata yang ada di Sulawesi apa saja?",
+                "mana saja tempat wisata yang ada di Sulawesi ",
+                "tempat wisata yang ada di Sulawesi",
+                "tempat wisata Sulawesi",
+                "destinasi Sulawesi",
+                "wisata di Sulawesi",
+                "destinasi di Sulawesi",
+                "mana saja tempat wisata yang ada di Sulawesi ?"
+            ],
+            "responses": [
+                "Kamu Mau tau seputar wisata dan budaya yang ada di Sulawesi Mana nih, Karena untuk Sulawesi masih terbagi dengan 5 Provinsi loh yaitu Sulawesi Barat, Sulawesi Tengah, Sulawesi Utara, Sulawesi Tenggara dan Sulawesi Selatan. Silahkan pilih salah satu ya.....😊"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi utara",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi utara ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi utara ? ",
+                "tempat wisata yang rekomended di sulawesi utara",
+                "apa saja tempat wisata yang ada di sulawesi utara ?",
+                "Destinasi yang ada di Sulawesi Utara",
+                "Destinasi apa saja yang ada di Sulawesi Utara? ",
+                "tempat wisata yang ada di Sulawesi Utara apa saja?",
+                "mana saja tempat wisata yang ada di Sulawesi Utara?",
+                "tempat wisata yang ada di Sulawesi Utara",
+                "wisata Sulawesi Utara",
+                "tempat wisata Sulawesi Utara",
+                "destinasi Sulawesi Utara",
+                "wisata Sulawesi Utara",
+                "wisata di Sulawesi Utara",
+                "destinasi di Sulawesi Utara"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi utara : Danau Tondano, Gunung Klabat, Puncak Temboan Rurukan Satu Tomohon, Taman Laut Bunaken, Arung Jeram Sungai Nimanga, Bukit kasih"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi tenggara",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi tenggara ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi tenggara ? ",
+                "tempat wisata yang rekomended di sulawesi tenggara",
+                "apa saja tempat wisata yang ada di sulawesi tenggara ?",
+                "Destinasi yang ada di Sulawesi Tenggara",
+                "Destinasi apa saja yang ada di Sulawesi Tenggara? ",
+                "tempat wisata yang ada di Sulawesi Tenggara apa saja?",
+                "mana saja tempat wisata yang ada di Sulawesi Tenggara?",
+                "tempat wisata yang ada di Sulawesi Tenggara",
+                "wisata Sulawesi Tenggara",
+                "tempat wisata Sulawesi Tenggara",
+                "destinasi Sulawesi Tenggara",
+                "wisata Sulawesi Tenggara",
+                "wisata di Sulawesi Tenggara",
+                "destinasi di Sulawesi Tenggara"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi tenggara : Pantai Nasional Wakatobi, Pulau Bokori, Pantai Nambo, Pantai Nirwana, Pantai Toronipa, Wisata Bawah Laut Basilica, Pulau Labengki"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi tengah",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi tengah ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi tengah ? ",
+                "tempat wisata yang rekomended di sulawesi tengah",
+                "apa saja tempat wisata yang ada di sulawesi tengah ?",
+                "Destinasi yang ada di Sulawesi Tengah",
+                "Destinasi apa saja yang ada di Sulawesi Tengah? ",
+                "tempat wisata yang ada di Sulawesi Tengah apa saja?",
+                "mana saja tempat wisata yang ada di Sulawesi Tengah?",
+                "tempat wisata yang ada di Sulawesi Tengah",
+                "wisata Sulawesi Tengah",
+                "tempat wisata Sulawesi Tengah",
+                "destinasi Sulawesi Tengah",
+                "wisata Sulawesi Tengah",
+                "wisata di Sulawesi Tengah",
+                "destinasi di Sulawesi Tengah"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi tengah : Pusentasi, cagar alam morowali, jembatan palu, museum sulawesi tengah, sou rajan tugu perdamaian/monumen nosarara nosabatutu, pantai talise"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi barat",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi barat ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi barat ? ",
+                "tempat wisata yang rekomended di sulawesi barat",
+                "apa saja tempat wisata yang ada di sulawesi barat ?",
+                "Destinasi yang ada di Sulawesi Barat",
+                "Destinasi apa saja yang ada di Sulawesi Barat? ",
+                "tempat wisata yang ada di Sulawesi Barat apa saja?",
+                "mana saja tempat wisata yang ada di Sulawesi Barat?",
+                "tempat wisata yang ada di Sulawesi Barat",
+                "wisata Sulawesi Barat",
+                "tempat wisata Sulawesi Barat",
+                "destinasi Sulawesi Barat",
+                "wisata Sulawesi Barat",
+                "wisata di Sulawesi Barat",
+                "destinasi di Sulawesi Barat"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi Barat :  Wisata Alam Rawa Bangun, Bukit jati Gentungan, Pulau Karampuang, Pulau Gunung Toraja(Pulau Pasir Putih), Pantai Manakarra"
+            ]
+        },
+        {
+            "tag": "destinasi_sulawesi_selatan_firman",
+            "patterns": [
+                "Destinasi yang ada di Sulawesi Selatan ? ",
+                "tempat wisata yang ada di Sulawesi Selatan ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Sulawesi Selatan ?",
+                "Destinasi wisata yang ada di Sulawesi Selatan ? ",
+                "Destinasi wisata apa saja yang ada di Sulawesi Selatan ? ",
+                "tempat wisata yang rekomended di Sulawesi Selatan",
+                "apa saja tempat wisata yang ada di Sulawesi Selatan ?",
+                "Destinasi yang ada di Sulawesi Selatan",
+                "Destinasi apa saja yang ada di Sulawesi Selatan? ",
+                "tempat wisata yang ada di Sulawesi Selatan apa saja?",
+                "mana saja tempat wisata yang ada di Sulawesi Selatan?",
+                "tempat wisata yang ada di Sulawesi Selatan",
+                "wisata Sulawesi Selatan",
+                "tempat wisata Sulawesi Selatan",
+                "destinasi Sulawesi Selatan",
+                "wisata Sulawesi Selatan",
+                "wisata di Sulawesi Selatan",
+                "destinasi di Sulawesi Selatan"
+            ],
+            "responses": [
+                "Beberapa rekomendasi dari destinasi wisata di Sulawesi Selatan diantaranya yaitu Pantai Losari, Pantai Galesong, Benteng Fort Rotterdam, Balai Taman Nasional Bantimurung, dan sunset quay Central Park Indonesia"
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_losari",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai Losari ? ",
+                "Apa yang kamu ketahui tentang pantai Losari ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai Losari ?",
+                "Pantai Losari"
+            ],
+            "responses": [
+                "Pantai Losari dikenal sebagai salah satu ikon wisata yang paling terkenal di Sulawesi Selatan terutama di Makassar, terkenal dengan suasana nya yang mendukung apalagi bila malam tiba, desir ombak dan beberapa jajanan khas kota Makassar yang menambah suasana nyaman ketika berada di Pantai Losari",
+                "Pantai Losari merupakan pantai yang berada di kota Makassar yang menyuguhkan panorama alam yabng menakjubkan, namun pantai ini tidak memiliki pasir dan tidak bisa digunakan untuk berenang namun pengunjung tetap dapat menikmati suasana pantai dengan beberapa hiburan serta jajanan khas kota Makassar yang tersebar di sekitar pantai Losari."
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_galesong",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai Galesong ? ",
+                "Apa yang kamu ketahui tentang pantai Galesong ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai Galesong ?"
+            ],
+            "responses": [
+                "Pantai Galesong merupakan salah satu destinasi wisata di Makassar yang sangat nyaman karena dilengkapi fasilitas penunjang liburan kelurarga seperti penginapan, kolam renang, aneka wahana permainan dan tentunya desir pasir dan ombak pantai yang membangkitkan suasana berlibur anda. Destinasi wisata ini bisa kalian kunjungi desa Tamalate, Kecamatan Galesong Utara, Kabupaten Takalar."
+            ]
+        },
+        {
+            "tag": "destinasi_benteng_rotterdam",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Benteng Fort Rotterdam ? ",
+                "Apa yang kamu ketahui tentang benteng Fort Rotterdam ?",
+                "Apa yang bisa kamu jelaskan mengenai Benteng Fort Rotterdam ?"
+            ],
+            "responses": [
+                "Benteng Fort Rotterdam merupakan jenis bangunan bersejarah yang kini dijadikan destinasi wisata terutama pelajar yang ingin mempelajari sejarah, bangunan ini merupakan sebuah benteng peninggalan kerajaan Gowa-Tallo. Letak dari benteng ini terletak di pinggir pantai losari di sebelah barat dari kota Makassar. Di benteng ini terdapat berbagai jenis peninggalan sejarah serta kebudayaan seperti baju adat, tulisan bersejarah, senjata serta kendaraan bersejarah."
+            ]
+        },
+        {
+            "tag": "destinasi_taman_nasional_bantimurung",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai taman nasional Bantimurung? ",
+                "Apa yang kamu ketahui tentang taman nasional Bantimurung?",
+                "Apa yang bisa kamu jelaskan mengenai taman nasional Bantimurung ?"
+            ],
+            "responses": [
+                "Taman wisata Nasional Bantimurung merupakan destiwasi wisata yang terletak di Kabupaten Maros di Dusun Bantimurung, Kecamatan Simbang, Kabupaten Maros. Di tempat ini terdapat dua hal yang menjadi hal ikonik dari tempat ini yaitu taman kupu-kupu dan panorama alam yang tedapat bebatuan, beberapa goa dan air terjun."
+            ]
+        },
+        {
+            "tag": "destinasi_sunset_quay",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai sunset quay? ",
+                "Apa yang kamu ketahui tentang Sunset Quay?",
+                "Apa yang bisa kamu jelaskan mengenai Sunset Quay ?"
+            ],
+            "responses": [
+                "Sunset Quay merupakan bagian dari Central Park Indonesia yang berlokasi dekat dari Pantai Losari, tempat ini biasanya dikunjungi oleh para pencinta sunset yang ingin menikmati suasana matahari tenggelam dengan nuansa gemercik air pantai pada bebatuan yang diduduki oleh pengunjung Sunset Quay."
+            ]
+        },
+        {
+            "tag": "destinasi_maluku_utara",
+            "patterns": [
+                "Destinasi yang ada di Maluku Utara ? ",
+                "tempat wisata yang ada di Maluku Utara ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Maluku Utara ?"
+            ],
+            "responses": [
+                "Beberapa rekomendasi dari destinasi wisata di Maluku Utara diantaranya yaitu Museum Kedaton Sultan Bacan, Pantai Sulamadaha, Pantai Jikomalamo, Gunung Gamalama dan Benteng Tolukku"
+            ]
+        },
+        {
+            "tag": "destinasi_museum_kedaton_sultan_bacan",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai museum kedaton sultan bacan ? ",
+                "Apa yang kamu ketahui tentang museum kedaton sultan bacan ?",
+                "Apa yang bisa kamu jelaskan mengenai museum kedaton sultan bacan ?"
+            ],
+            "responses": [
+                "Museum Kedaton Sultan Bacan merupakan bangunan peninggalan bersejarah dari kesultanan daerah Ternate, museum ini terletak pada Kelurahan Sao Sio, Kecamatan Ternate Utara di Kota Ternate. Didalam museum terdapat berbagai macam koleksi  bersejarah seperti benda geologi, seni rupa , mahkota kerajaan, singgasana kerajaan serta perlengkapan alat perang"
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_sulamadaha",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai sulamadaha ? ",
+                "Apa yang kamu ketahui tentang pantai sulamadaha ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai sulamadaha ?"
+            ],
+            "responses": [
+                "Pantai Sulamadaha adalah salah satu destinasi wisata yang terkenal dengan keindahan pasir putih serta kejernihan air pantai. Pantai ini terletak di desa Sulamadaha di kecamatan Pulau Ternate. Pantai ini biasanya banyak digunakan untuk melepas penat dan bermain snorkeling."
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_jikomalamo",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Pantai Jikomalamo ? ",
+                "Apa yang kamu ketahui tentang Pantai Jikomalamo ?",
+                "Apa yang bisa kamu jelaskan mengenai Pantai Jikomalamo ?"
+            ],
+            "responses": [
+                "Pantai Jikomalamo merupakan destinasi wisata pantai yang berpasir putih. Pantai ini terletak di sebuah teluk yang tersembunyi yang dekat dengan Pulau Hiri di daerah seberangnya , pantai ini diberi nama Jikomalamo dikarenakan Jikomalamo merupakan nama kampung yang terdapat di pulau Hiri tersebut."
+            ]
+        },
+        {
+            "tag": "destinasi_gunung_gamalama",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai gunung gamalama? ",
+                "Apa yang kamu ketahui tentang gunung gamalama?",
+                "Apa yang bisa kamu jelaskan mengenai gunung gamalama ?"
+            ],
+            "responses": [
+                "Gunung Gamalama merupakan destinasi wisata yang cocok digunakan untuk berlibur, pemandangan gunung yang indah, hamparan perkebunan cengkeh dan pala yang berjejer di sepanjang lereng. Gunung ini dapat ditempuh dengan berjalan kaki yang kurang lebih 30 menit dari pusat kota Ternate."
+            ]
+        },
+        {
+            "tag": "destinasi_benteng_tolukko",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai  Benteng Tolukko? ",
+                "Apa yang kamu ketahui tentang Benteng Tolukko?",
+                "Apa yang bisa kamu jelaskan mengenai Benteng Tolukko ?"
+            ],
+            "responses": [
+                "Benteng Tolukko merupakan destinasi wisata yang terletak di kelurahan Sangadji di Ternate Utara.  Bangunan ini diceritakan dibangun oleh panglima perang dari Portugis , benteng ini menyimpan beberapa kisah bersejarah terkait perjalanan dari Ternate. Benteng ini terletak di wilayah kelurahan Sangadji didaerah Ternate Utara.  "
+            ]
+        },
+        {
+            "tag": "destinasi_maluku",
+            "patterns": [
+                "Destinasi yang ada di Maluku  ? ",
+                "tempat wisata yang ada di Maluku ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Maluku ?",
+                "Tempat wisata di maluku",
+                "wisata maluku",
+                "wisata di maluku"
+            ],
+            "responses": [
+                "Beberapa rekomendasi dari destinasi wisata di Maluku Utara diantaranya yaitu Nusa Pombo, Pantai Liang, Pantai Natsepa, Pemandian Air Panas Negeri Tuleh dan Benteng Ferangi"
+            ]
+        },
+        {
+            "tag": "destinasi_nusa_pombo",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Nusa Pombo ? ",
+                "Apa yang kamu ketahui tentang Nusa Pombo ?",
+                "Apa yang bisa kamu jelaskan mengenai Nusa Pombo ?"
+            ],
+            "responses": [
+                "Pulau Nusa Pombo merupakan pulau yang indah yang tidak berpenghuni diberi nama Nusa Pombo dari bahasa  Portuhis yang berarti merpati, maka dari itu pulau juga ini dikenal dengan pulau merpati. Pulau ini menyimpan banyak kekayaan laut yang mempesona, wisatawan pun juga dapat menyelam dan menikmati wisata bawah laut ini."
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_liang",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai liang ? ",
+                "Apa yang kamu ketahui tentang pantai liang ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai liang ?"
+            ],
+            "responses": [
+                "Pantai liang merupakan pantai yang teletak di Desa Liang, Kecamatan Salahutu, Kabupaten Maluku Tengah. Pengunjung yang berlibur di Pantai ini akan disambut dengan pasir putih memberikan kesan alami disertai pepohonan yang rindang yang menambah suasana nikmat bagi kalian yang ingin melepas penat. "
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_natsepa",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Pantai natsepa ? ",
+                "Apa yang kamu ketahui tentang Pantai natsepa ?",
+                "Apa yang bisa kamu jelaskan mengenai Pantai natsepa ?"
+            ],
+            "responses": [
+                "Pantai Natsepa yang legendaris ini memang menyimpan pesona yang luar biasa. Walaupun banyak bermunculan tempat wisata pantai yang baru di sepanjang pesisir Pulau Ambon, namun Pantai Natsepa selalu mendapat tempat khusus terutama bagi masyarakat Pulau Ambon.  Wilayah berpasir di Pantai Natsepa adalah salah satu yang terluas di sepanjang pesisir Pulau Ambon. Hamparan pasirnya memang tidak sepanjang Pantai Liang, namun luas area Pantai Natsepa lebih banyak memberikan ruang bagi para wisatawan untuk melakukan berbagai aktifitas. "
+            ]
+        },
+        {
+            "tag": "destinasi_pemandian_air_panas_negeri_tulehu",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai  pemandian air panas negeri tulehu? ",
+                "Apa yang kamu ketahui tentang pemandian air panas negeri tulehu?",
+                "Apa yang bisa kamu jelaskan mengenai pemandian air panas negeri tulehu ?"
+            ],
+            "responses": [
+                "Pemandian air panas negeri tulehu terletak di negeri Tulehu, kecamatan Salahutu, Kabupaten Maluku Tengah.  Air panas tulehu sangat berkhasiat, karena beberapa pengunjung yang rutin untuj datang ke tempat itu mengatakan sembuh dari beberapa penyakit. Selain dapat menyembuhkan penyakit, Anda pasti akan merasa segar dan pulih dari kepenatan setelah mandi di air panas Tulehu, dihasilkan kesegaran tubuh yang dapat dirasakan setelah mandi serta tubuh yang terasa lebih ringan."
+            ]
+        },
+        {
+            "tag": "destinasi_benteng_ferangi",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai  Benteng Ferangi? ",
+                "Apa yang kamu ketahui tentang Benteng Ferangi?",
+                "Apa yang bisa kamu jelaskan mengenai Benteng Ferangi ?"
+            ],
+            "responses": [
+                "Benteng Ferangi merupakan bangunan benteng bersejarah yang dibuat oleh bangsa portugis pada tahun 1575. Dulunya bangunan Benteng ini dijadikan sebagai Pusat pemerintahan dan juga sebagai tempat untuk menyimpan hasil rempah-rempah yang ada di indonesia bagian timur. Namun sekarang, benteng ini dijadikan sebagai lokasi wisata sejarah yang selalu ramai dikunjungi oleh para wisatawan yang ingin mengenal dan melihat peninggalan bersejarah di tempat ini. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_barat",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua barat? ",
+                "tempat wisata yang ada di papua barat apa saja?",
+                "mana saja tempat wisata yang ada di papua barat ?",
+                "Destinasi yang ada di Papua Barat ? ",
+                "tempat wisata yang ada di Papua Barat ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Papua Barat ?",
+                "Destinasi wisata yang ada di Papua Barat ? ",
+                "Destinasi wisata apa saja yang ada di Papua Barat ? ",
+                "tempat wisata yang rekomended di Papua Barat",
+                "apa saja tempat wisata yang ada di Papua Barat ?",
+                "Destinasi yang ada di Papua Barat",
+                "Destinasi apa saja yang ada di Papua Barat? ",
+                "tempat wisata yang ada di Papua Barat apa saja?",
+                "mana saja tempat wisata yang ada di Papua Barat?",
+                "tempat wisata yang ada di Papua Barat",
+                "wisata Papua Barat",
+                "tempat wisata Papua Barat",
+                "destinasi Papua Barat",
+                "wisata Papua Barat",
+                "wisata di Papua Barat",
+                "destinasi di Papua Barat"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Barat, diantaranya yaitu Gunung Arfak, Pulau Mansinam, Pantai Bakaro, Pantai Pasir Putih Yen Baba dan Pantai Syari. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua? ",
+                "tempat wisata yang ada di papua apa saja?",
+                "mana saja tempat wisata yang ada di papua?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua, diantaranya yaitu Gunung Arfak, Pulau Mansinam, Pantai Bakaro, Pantai Pasir Putih Yen Baba dan Pantai Syari. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_selatan",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua selatan? ",
+                "tempat wisata yang ada di papua selatan apa saja?",
+                "mana saja tempat wisata yang ada di papua selatan?",
+                "Destinasi yang ada di Papua Selatan ? ",
+                "tempat wisata yang ada di Papua Selatan ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Papua Selatan ?",
+                "Destinasi wisata yang ada di Papua Selatan ? ",
+                "Destinasi wisata apa saja yang ada di Papua Selatan ? ",
+                "tempat wisata yang rekomended di Papua Selatan",
+                "apa saja tempat wisata yang ada di Papua Selatan ?",
+                "Destinasi yang ada di Papua Selatan",
+                "Destinasi apa saja yang ada di Papua Selatan? ",
+                "tempat wisata yang ada di Papua Selatan apa saja?",
+                "mana saja tempat wisata yang ada di Papua Selatan?",
+                "tempat wisata yang ada di Papua Selatan",
+                "wisata Papua Selatan",
+                "tempat wisata Papua Selatan",
+                "destinasi Papua Selatan",
+                "wisata Papua Selatan",
+                "wisata di Papua Selatan",
+                "destinasi di Papua Selatan"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Selatan, diantaranya yaitu Pulau Hube, Pantai Payum, Taman Nasional Wasur, Pantai Onggaya dan Monumen Kapsul Waktu. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_tengah",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua tengah? ",
+                "tempat wisata yang ada di papua tengah apa saja?",
+                "mana saja tempat wisata yang ada di papua tengah?",
+                "Destinasi yang ada di Papua Tengah ? ",
+                "tempat wisata yang ada di Papua Tengah ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Papua Tengah ?",
+                "Destinasi wisata yang ada di Papua Tengah ? ",
+                "Destinasi wisata apa saja yang ada di Papua Tengah ? ",
+                "tempat wisata yang rekomended di Papua Tengah",
+                "apa saja tempat wisata yang ada di Papua Tengah ?",
+                "Destinasi yang ada di Papua Tengah",
+                "Destinasi apa saja yang ada di Papua Tengah? ",
+                "tempat wisata yang ada di Papua Tengah apa saja?",
+                "mana saja tempat wisata yang ada di Papua Tengah?",
+                "tempat wisata yang ada di Papua Tengah",
+                "wisata Papua Tengah",
+                "tempat wisata Papua Tengah",
+                "destinasi Papua Tengah",
+                "wisata Papua Tengah",
+                "wisata di Papua Tengah",
+                "destinasi di Papua Tengah"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Tengah, diantaranya yaitu Danau Rawa Biru, Taman Nasional Teluk Cendrawasih, Danau Mamae, Pantai Burate dan Pantai Ahe. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_pegunungan",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua pegunungan? ",
+                "tempat wisata yang ada di papua pegunungan apa saja?",
+                "mana saja tempat wisata yang ada di papua pegunungan?",
+                "Destinasi yang ada di Papua Pegunungan ? ",
+                "tempat wisata yang ada di Papua Pegunungan ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Papua Pegunungan ?",
+                "Destinasi wisata yang ada di Papua Pegunungan ? ",
+                "Destinasi wisata apa saja yang ada di Papua Pegunungan ? ",
+                "tempat wisata yang rekomended di Papua Pegunungan",
+                "apa saja tempat wisata yang ada di Papua Pegunungan ?",
+                "Destinasi yang ada di Papua Pegunungan",
+                "Destinasi apa saja yang ada di Papua Pegunungan? ",
+                "tempat wisata yang ada di Papua Pegunungan apa saja?",
+                "mana saja tempat wisata yang ada di Papua Pegunungan?",
+                "tempat wisata yang ada di Papua Pegunungan",
+                "wisata Papua Pegunungan",
+                "tempat wisata Papua Pegunungan",
+                "destinasi Papua Pegunungan",
+                "wisata Papua Pegunungan",
+                "wisata di Papua Pegunungan",
+                "destinasi di Papua Pegunungan"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Pegunungan, diantaranya yaitu Puncak Trikora, Gua Kontilola, Lembah Baliem, Air Terjun Walesi dan Pasir Putih Desa Aikima. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_barat_daya",
+            "patterns": [
+                "Destinasi apa saja yang ada di Papua Barat Daya? ",
+                "tempat wisata yang ada di Papua Barat Daya apa saja?",
+                "mana saja tempat wisata yang ada di Papua Barat Daya?",
+                "Destinasi yang ada di Papua Barat Daya ? ",
+                "tempat wisata yang ada di Papua Barat Daya ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Papua Barat Daya ?",
+                "Destinasi wisata yang ada di Papua Barat Daya ? ",
+                "Destinasi wisata apa saja yang ada di Papua Barat Daya ? ",
+                "tempat wisata yang rekomended di Papua Barat Daya",
+                "apa saja tempat wisata yang ada di Papua Barat Daya ?",
+                "Destinasi yang ada di Papua Barat Daya",
+                "Destinasi apa saja yang ada di Papua Barat Daya? ",
+                "tempat wisata yang ada di Papua Barat Daya apa saja?",
+                "mana saja tempat wisata yang ada di Papua Barat Daya?",
+                "tempat wisata yang ada di Papua Barat Daya",
+                "wisata Papua Barat Daya",
+                "tempat wisata Papua Barat Daya",
+                "destinasi Papua Barat Daya",
+                "wisata Papua Barat Daya",
+                "wisata di Papua Barat Daya",
+                "destinasi di Papua Barat Daya"
+            ],
+            "responses": [
+                "Tempat wisata yang ada di Papua Barat Daya yaitu Kepulauan Raja Ampat, Pantai Tantung Kasuari, Pianemo, pantai Pasir Timbul Pulau Mansuar dan Danau Framu"
+            ]
+        },
+        {
+            "tag": "budaya_sulawesi_selatan",
+            "patterns": [
+                "apa saja budaya di sulawesi selatan? ",
+                "apa saja budaya di sulawesi selatan ",
+                "apa saja budaya di sulsel ",
+                "apa saja kebudayaan di sulawesi selatan ",
+                "apa saja kebudayaan yang terdapat di sulawesi selatan? ",
+                "apa sajakah kebudayaan yang terdapat di sulawesi selatan? ",
+                "budaya yang ada di sulawesi selatan apa aja?",
+                "budaya yang ada di sulawesi selatan apa saja?",
+                "budaya yang ada di sulawesi selatan",
+                "budaya yang ada di sulsel",
+                "budaya yang terdapat di sulsel",
+                "budaya yang terdapat di sulawesi selatan",
+                "budaya di sulsel",
+                "budaya di sulawesi selatan",
+                "kebudayaan di sulsel",
+                "kebudayaan di sulawesi selatan",
+                "budaya yang terdapat di sulawesi selatan"
+            ],
+            "responses": [
+                "di Sulawesi Selatan terdapat berbagai macam kebudayaan yang tersebar dari berbagai daerah diantaranya yaitu jenis tarian seperti tari Mappadendang yang berasal dari suku bugis dan tari Pakarena yang berasal dari suku Makassar. adapula alat musik khas dari sulawesi selatan yaitu pa'barrung dan pa'karombi.  Terdapat pula jenis pakaian adat yaitu baju bodo dan baju Labbu, selanjutnya terdapat pula rumah adat tongkonan yang merupakan jenis rumah adat yang khas dari sulawesi selatan, serta terdapat pula bahasa daerah, suku serta makanan khas dari makassar yang bisa kalian tanyakan di dibawah. "
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_sulawesi_selatan",
+            "patterns": [
+                "apa bahasa daerah yang ada di sulawesi selatan? ",
+                "apa bahasa daerah yang digunakan di sulawesi selatan ",
+                "apa saja bahasa daerah yang digunakan di sulawesi selatan ",
+                "bahasa daerah di sulawesi selatan ",
+                "bahasa di sulawesi selatan? ",
+                "bahasa sulawesi selatan? ",
+                "sebutkan apa saja bahasa daerah di sulawesi selatan? "
+            ],
+            "responses": [
+                "di Sulawesi Selatan terdapat berbagai macam bahasa daerah diantaranya yaitu bahasa Bajo, bahasa Bonerate, bahasa Bugis, bahasa Bugis De, bahasa Konjo, bahasa Laiyolo, bahasa Lemolang, bahasa Makassar, bahasa Mandar, bahasa Massenrengpulu, bahasa Rampi, bahasa Seko, bahasa Toraja, dan bahasa Wotu "
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_bajo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bajo ",
+                "jelaskan mengenai bahasa bajo ",
+                "jelaskan tentang bahasa daerah bajo ",
+                "jelaskan tentang bahasa bajo ",
+                "bahasa daerah bajo",
+                "bahasa bajo ",
+                "bahasa bajo di sulawesi selatan? ",
+                "bahasa bajo sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Bajo merupakan bahasa dari sulawesi selatan yang sering digunakan oleh masyarakat di Desa Rajuni, Kecamatan Taka Bonerate, Kabupaten Kepulauan Selayar dan Kelurahan Bajoe, Kecamatan Tanete Riattang Timur, Kabupaten Bone, Provinsi Sulawesi Selatan. "
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_bonerate",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bonerate ",
+                "jelaskan mengenai bahasa bonerate ",
+                "jelaskan tentang bahasa daerah bonerate ",
+                "jelaskan tentang bahasa bonerate ",
+                "bahasa daerah bonerate",
+                "bahasa bonerate ",
+                "bahasa bonerate di sulawesi selatan? ",
+                "bahasa bonerate sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Bonerate merupakan kelompok Bahasa Binongko Rumpun Pandai Besi, bahasa Bonerate sering digunakan oleh masyarakat Desa Bonerate, Kecamatan Pasimarannu, Kabupaten Kepulauan Selayar, Provinsi Sulawesi Selatan. "
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_bugis",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis ",
+                "jelaskan mengenai bahasa bugis ",
+                "jelaskan tentang bahasa daerah bugis ",
+                "jelaskan tentang bahasa bugis ",
+                "bahasa daerah bugis",
+                "bahasa bugis ",
+                "bugis ",
+                "bahasa bugis di sulawesi selatan? ",
+                "bahasa bugis sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Bugis merupakan bahasa yang berasal dari Sulawesi Selatan yang dimana bahasa ini hampir digunakan oleh hampir seluruh lapisan di wilayah sulawesi selatan bahkan terdapat pula. Bahasa Bugis terdiri atas dua puluh tujuh jenis dialek. Dialek-dialek tersebut yaitu  dialek Bone,  dialek Pangkep, dialek Makassar, dialek Pare-Pare, dialek Wajo, dialek Sidenreng Rappang,  dialek Sopeng, dialek Sinjai, dialek Pinrang, dialek Malimpung, dialek Dentong, dialek Pattinjo,  dialek Kaluppang, Dialek Maiwa, Dialek Dialek Maroangin, Dialek Wani, dialek Bugis Kayowa,  dialek Buol Pamoyagon (Bugis Pomayagon), dialek Buol Bokat (Bugis Bokat), dialek Jambi, dialek Kalimantan Selatan, dialek Lampung, dialek Sulawesi Tenggara, dialek Bali, dialek Sulawesi Tengah, dialek Riau, dan dialek Kalimantan Timur. Bahasa Bugis juga tersebar di beberapa daerah lain, seperti di Kepulauan Seribu (Jakarta), Jambi, Kalimantan Selatan, Kalimantan Timur, Bali, Lampung, Riau, dan NTB. Selain itu, penutur bahasa Bugis juga dapat ditemukan di Kabupaten Kolaka, Kabupaten Kolaka Utara, dan Kabupaten Bombana, Provinsi Sulawesi Tenggara. "
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_bone",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek bone",
+                "jelaskan mengenai bahasa bugis dialek bone",
+                "jelaskan tentang bahasa daerah bugis dialek bone  ",
+                "jelaskan tentang bahasa bugis dialek bone ",
+                "bahasa daerah bugis dialek bone",
+                "bahasa bugis dialek bone",
+                "bugis dialek bone",
+                "bahasa bugis dialek bone di sulawesi selatan? ",
+                "bahasa bugis dialek bone sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Bone dalam bahasa bugis sering digunakan di daerah Kelurahan Otting, Kecamatan Tellu Siattinge; Desa Welado, Kecamatan Ajangale; Desa Waempubu, Kecamatan Amali; Desa Mattanetebua, Kecamatan Palakka; Desa Ulu Balang, Kecamatan Salomekko; Desa Pattimpa, Kecamatan Ponre dan di Desa Gaya Baru, Kecamatan Tellulimpoe; Desa Gona, Kecamatan  Kajuara, Kabupaten Bone."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_pangkep",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek pangkep",
+                "jelaskan mengenai bahasa bugis dialek pangkep",
+                "jelaskan tentang bahasa daerah bugis dialek pangkep",
+                "jelaskan tentang bahasa bugis dialek pangkep",
+                "bahasa daerah bugis dialek pangkep",
+                "bahasa bugis dialek pangkep",
+                "bugis dialek pangkep",
+                "bahasa bugis dialek pangkep di sulawesi selatan? ",
+                "bahasa bugis dialek pangkep sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Pangkep dalam bahasa bugis sering di gunakan di daerah Kelurahan Samalewa, Kecamatan Bungoro; Desa Kanaungan, Kecamatan Labakkang; Kelurahan Bonto Matene, Kecamatan Segeri; dan Desa Pitue, Kecamatan Marang, Kabupaten Pangkajene Kepulauan."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_makassar",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek makassar",
+                "jelaskan mengenai bahasa bugis dialek makassar",
+                "jelaskan tentang bahasa daerah bugis dialek makassar",
+                "jelaskan tentang bahasa bugis dialek makassar",
+                "bahasa daerah bugis dialek makassar",
+                "bahasa bugis dialek makassar",
+                "bugis dialek makassar",
+                "bahasa bugis dialek makassar di sulawesi selatan ",
+                "bahasa bugis dialek makassar sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Makassar dalam bahasa bugis sering di gunakan di daerah Kelurahan Wajo Baru, Kecamatan Bontoala, Kabupaten Kota Makassar. Dialek Pare-Pare  dituturkan di Kelurahan Wattang Bacukiki, Kecamatan Bacukiki; Kelurahan Lapadde, Kecamatan Ujung; dan Kelurahan Watang Soreang, Kecamatan Soreang, Kabupaten Kota Pare Pare."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_wajo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek wajo",
+                "jelaskan mengenai bahasa bugis dialek wajo",
+                "jelaskan tentang bahasa daerah bugis dialek wajo",
+                "jelaskan tentang bahasa bugis dialek wajo",
+                "bahasa daerah bugis dialek wajo",
+                "bahasa bugis dialek wajo",
+                "bugis dialek wajo",
+                "bahasa bugis dialek wajo di sulawesi selatan ",
+                "bahasa bugis dialek wajo sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Wajo dalam bahasa bugis sering di gunakan di daerah Desa Ongkoe, Kecamatan Belawa; Desa Liu, Kecamatan Sabangparu; Desa Poleonro, Kecamatan Gilireng; Kelurahan Pattirosompe, Kecamatan Tempe; Desa Lapauke, Kecamatan Pammana; dan Desa Tosora, Kecataman Majauleng, Kabupaten Wajo."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_sidenreng_rappang",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek sidenreng rappang",
+                "jelaskan mengenai bahasa bugis dialek sidenreng rappang",
+                "jelaskan tentang bahasa daerah bugis dialek sidenreng rappang",
+                "jelaskan tentang bahasa bugis dialek sidenreng rappang",
+                "bahasa daerah bugis dialek sidenreng rappang",
+                "bahasa bugis dialek sidenreng rappang",
+                "bugis dialek sidenreng rappang",
+                "bahasa bugis dialek sidenreng rappang di sulawesi selatan ",
+                "bahasa bugis dialek sidenreng rappang sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Sidenreng Rappang dalam bahasa bugis sering di gunakan di daerah Desa Bulo, Kecamatan Panca Rijang; Desa Betao, Kecamatan Pitu Riawa; dan Desa Buae, Kecamatan Watang Pulu, Kabupaten Sidenreng Rappang. "
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_sinjai",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek sinjai",
+                "jelaskan mengenai bahasa bugis dialek sinjai",
+                "jelaskan tentang bahasa daerah bugis dialek sinjai",
+                "jelaskan tentang bahasa bugis dialek sinjai",
+                "bahasa daerah bugis dialek sinjai",
+                "bahasa bugis dialek sinjai",
+                "bugis dialek sinjai",
+                "bahasa bugis dialek sinjai di sulawesi selatan ",
+                "bahasa bugis dialek sinjai sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Sinjai dalam bahasa bugis sering di gunakan di daerah Desa Manurung, Kecamatan Malili, Kabupaten Luwu Timur; serta Desa Panaikang, Kecamatan Sinjai Timur dan Desa Kanrung, Kecamatan Sinjai Tengah, Kabupaten Sinjai."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_sopeng",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek sopeng",
+                "jelaskan mengenai bahasa bugis dialek sopeng",
+                "jelaskan tentang bahasa daerah bugis dialek sopeng",
+                "jelaskan tentang bahasa bugis dialek sopeng",
+                "bahasa daerah bugis dialek sopeng",
+                "bahasa bugis dialek sopeng",
+                "bugis dialek sopeng",
+                "bahasa bugis dialek sopeng di sulawesi selatan ",
+                "bahasa bugis dialek sopeng sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Sopeng  dalam bahasa bugis sering di gunakan di daerah Kelurahan Botto, Kecamatan Lalabata; Desa Leworeng, Kecamatan DonriDonri; Kelurahan Limpomajang, Kecamatan Marioriawa; Desa Congko, Kecamatan Marioriwawo; Desa Citta, Kecamatan Citta; dan Desa Kebo, Kecamatan Lilirilau, Kabupaten Soppeng."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_pinrang",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek pinrang",
+                "jelaskan mengenai bahasa bugis dialek pinrang",
+                "jelaskan tentang bahasa daerah bugis dialek pinrang",
+                "jelaskan tentang bahasa bugis dialek pinrang",
+                "bahasa daerah bugis dialek pinrang",
+                "bahasa bugis dialek pinrang",
+                "bugis dialek pinrang",
+                "bahasa bugis dialek pinrang di sulawesi selatan ",
+                "bahasa bugis dialek pinrang sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Pinrang dalam bahasa bugis sering di gunakan di daerah Desa Mattirotasi, Kecamatan Mattiro Sompe; Desa Padakkalawa, Kecamatan Mattiro Bulu; Desa Maccoralaie, Kecamatan Watang Sawitto; Kelurahan Watang Suppa, Kecamatan Suppa; Kelurahan Lansirang, Kecamatan Lansirang; Desa Malongi-longi, Kecamatan Lansirang; Desa Tiroang, Kecamatan Tiroang; Desa Leppanggang, Kecamatan Patampanua; dan Desa Paria, Kecamatan Duampanua, Kabupaten Pinrang."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_malimpung",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek malimpung",
+                "jelaskan mengenai bahasa bugis dialek malimpung",
+                "jelaskan tentang bahasa daerah bugis dialek malimpung",
+                "jelaskan tentang bahasa bugis dialek malimpung",
+                "bahasa daerah bugis dialek malimpung",
+                "bahasa bugis dialek malimpung",
+                "bugis dialek malimpung",
+                "bahasa bugis dialek malimpung di sulawesi selatan ",
+                "bahasa bugis dialek malimpung sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Malimpung dalam bahasa bugis sering di gunakan di daerah Desa Malimpung, Kecamatan Patampanua, Kabupaten Pinrang."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_dentong",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek dentong",
+                "jelaskan mengenai bahasa bugis dialek dentong",
+                "jelaskan tentang bahasa daerah bugis dialek dentong",
+                "jelaskan tentang bahasa bugis dialek dentong",
+                "bahasa daerah bugis dialek dentong",
+                "bahasa bugis dialek dentong",
+                "bugis dialek dentong",
+                "bahasa bugis dialek dentong di sulawesi selatan ",
+                "bahasa bugis dialek dentong sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Dentong dalam bahasa bugis sering di gunakan di daerah Desa Laiya, Kecamatan Cenrana, Kabupaten Maros."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_pattinjo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek pattinjo",
+                "jelaskan mengenai bahasa bugis dialek pattinjo",
+                "jelaskan tentang bahasa daerah bugis dialek pattinjo",
+                "jelaskan tentang bahasa bugis dialek pattinjo",
+                "bahasa daerah bugis dialek pattinjo",
+                "bahasa bugis dialek pattinjo",
+                "bugis dialek pattinjo",
+                "bahasa bugis dialek pattinjo di sulawesi selatan ",
+                "bahasa bugis dialek pattinjo sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Pattinjo dalam bahasa bugis sering di gunakan di daerah Desa Malimpung, Kecamatan Patampanua dan di Desa Rajang, Kecamatan Lembang, Kabupaten Pinrang."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_kaluppang",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek kaluppang",
+                "jelaskan mengenai bahasa bugis dialek kaluppang",
+                "jelaskan tentang bahasa daerah bugis dialek kaluppang",
+                "jelaskan tentang bahasa bugis dialek kaluppang",
+                "bahasa daerah bugis dialek kaluppang",
+                "bahasa bugis dialek kaluppang",
+                "bugis dialek kaluppang",
+                "bahasa bugis dialek kaluppang di sulawesi selatan ",
+                "bahasa bugis dialek kaluppang sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Kaluppang dalam bahasa bugis sering di gunakan di daerah Desa Kaballangan, Kecamatan Duampanua, Kabupaten Pinrang."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_maiwa",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek maiwa",
+                "jelaskan mengenai bahasa bugis dialek maiwa",
+                "jelaskan tentang bahasa daerah bugis dialek maiwa",
+                "jelaskan tentang bahasa bugis dialek maiwa",
+                "bahasa daerah bugis dialek maiwa",
+                "bahasa bugis dialek maiwa",
+                "bugis dialek maiwa",
+                "bahasa bugis dialek maiwa di sulawesi selatan ",
+                "bahasa bugis dialek maiwa sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Maiwa dalam bahasa bugis sering di gunakan di daerah Desa Bungin, Kecamatan Bungin dan di Desa Patondon Salu, Kecamatan Maiwa, Kabupaten Enrekang."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_maroangin",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek maroangin",
+                "jelaskan mengenai bahasa bugis dialek maroangin",
+                "jelaskan tentang bahasa daerah bugis dialek maroangin",
+                "jelaskan tentang bahasa bugis dialek maroangin",
+                "bahasa daerah bugis dialek maroangin",
+                "bahasa bugis dialek maroangin",
+                "bugis dialek maroangin",
+                "bahasa bugis dialek maroangin di sulawesi selatan ",
+                "bahasa bugis dialek maroangin sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Maroangin dalam bahasa bugis sering di gunakan di daerah Desa Tuncung/Kaluppang, Kecamatan Maiwa, Kabupaten Enrekang."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_wani",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek wani",
+                "jelaskan mengenai bahasa bugis dialek wani",
+                "jelaskan tentang bahasa daerah bugis dialek wani",
+                "jelaskan tentang bahasa bugis dialek wani",
+                "bahasa daerah bugis dialek wina",
+                "bahasa bugis dialek wina",
+                "bugis dialek wani",
+                "bahasa bugis dialek wani di sulawesi selatan ",
+                "bahasa bugis dialek wani sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Wani dalam bahasa bugis sering di gunakan di daerah Desa Wani Satu, Wani Dua, dan Wani Tiga, Kecamatan Tanantovea, Kabupaten Donggala, Provinsi Sulawesi Tengah. "
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_bugis_kayowa",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek bugis kayowa",
+                "jelaskan mengenai bahasa bugis dialek bugis kayowa",
+                "jelaskan tentang bahasa daerah bugis dialek bugis kayowa",
+                "jelaskan tentang bahasa bugis dialek bugis kayowa",
+                "bahasa daerah bugis dialek bugis kayowa",
+                "bahasa bugis dialek bugis kayowa",
+                "bugis dialek bugis kayowa",
+                "bahasa bugis dialek bugis kayowa di sulawesi selatan ",
+                "bahasa bugis dialek bugis kayowa sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Bugis Kayowa dalam bahasa bugis sering di gunakan di daerah Desa Kayowa, Kecamatan Batui, Kabupaten Banggai, Provinsi Sulawesi Tengah. "
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_buol_pamoyagon",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek buol pamoyagon",
+                "jelaskan mengenai bahasa bugis dialek buol pamoyagon",
+                "jelaskan tentang bahasa daerah bugis dialek buol pamoyagon",
+                "jelaskan tentang bahasa bugis dialek buol pamoyagon",
+                "bahasa daerah bugis dialek buol pamoyagon",
+                "bahasa bugis dialek buol pamoyagon",
+                "bugis dialek buol pamoyagon",
+                "bahasa bugis dialek buol pamoyagon di sulawesi selatan ",
+                "bahasa bugis dialek buol pamoyagon sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Buol Pamoyagon (Bugis Pomayagon) dalam bahasa bugis sering di gunakan di daerah Desa Pomayagon, Kecamatan Momunu, Kabupaten Buol, Provinsi Sulawesi Tengah."
+            ]
+        },
+        {
+            "tag": "bahasa_bugis_dialek_buol_bokat",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis dialek buol bokat",
+                "jelaskan mengenai bahasa bugis dialek buol bokat",
+                "jelaskan tentang bahasa daerah bugis dialek buol bokat",
+                "jelaskan tentang bahasa bugis dialek buol bokat",
+                "bahasa daerah bugis dialek buol bokat",
+                "bahasa bugis dialek buol bokat",
+                "bugis dialek buol bokat",
+                "bahasa bugis dialek buol bokat di sulawesi selatan ",
+                "bahasa bugis dialek buol bokat sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Buol Bokat (Bugis Bokat) dalam bahasa bugis sering di gunakan di daerah Desa Bokat, Kecamatan Bokat dan di Kelurahan Leok I, Kecamatan Biau, Kabupaten Buol, Provinsi Sulawesi Tengah."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_bugis_de",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bugis de ",
+                "jelaskan mengenai bahasa bugis de",
+                "jelaskan tentang bahasa daerah bugis de ",
+                "jelaskan tentang bahasa bugis de",
+                "bahasa daerah bugis de",
+                "bahasa bugis de",
+                "bugis de",
+                "bahasa bugis de di sulawesi selatan? ",
+                "bahasa bugis de sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Bugis De sering digunakan oleh masyarakat yang berada di Desa Wawondula, Kecamatan Towuti, Kabupaten Luwu Timur, Desa Manurung, Kecamatan Malili, Kabupaten Luwu Timur, Desa Ledu Ledu, Kecamatan Wasuponda, Kabupaten Luwu Timur, dan Desa Matano, Kecamatan Nuha, Kabupaten Luwu Timur, Provinsi Sulawesi Selatan. Bahasa Bugis De ini berbeda dengan bahasa bugis pada umumnya, adapun bahasa ini terdiri atas empat dialek, yaitu dialek Padoe yang dituturkan di Desa Wawondula, Kecamatan Towuti, kemudian dialek Manurung yang dituturkan di Desa Manurung, Kecamatan Malili. Lalu dialek Karunsia yang dituturkan di Desa Ledu Ledu, Kecamatan Wasuponda, dan terakhir dialek More yang dituturkan di Desa Matano, Kecamatan Nuha. "
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_konjo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah konjo ",
+                "jelaskan mengenai bahasa konjo",
+                "jelaskan tentang bahasa daerah konjo ",
+                "jelaskan tentang bahasa konjo",
+                "bahasa daerah konjo",
+                "bahasa konjo",
+                "konjo",
+                "bahasa konjo di sulawesi selatan? ",
+                "bahasa konjo sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Konjo merupakan bahasa yang terdapat di sulawesi selatan, bahasa ini banyak digunakan oleh masyarakat yang berada di Desa Bira, Ara, Kecamatan Bonto Bahari dan Desa Possi Tanah, Kecamatan Kajang, Kabupaten Bulukumba, Provinsi Sulawesi Selatan. Bahasa Konjo terdiri atas tiga dialek, yaitu dialek Bira, dialek Ara, dan dialek Kajang."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_laiyolo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah laiyolo ",
+                "jelaskan mengenai bahasa laiyolo",
+                "jelaskan tentang bahasa daerah laiyolo ",
+                "jelaskan tentang bahasa laiyolo",
+                "bahasa daerah laiyolo",
+                "bahasa laiyolo",
+                "laiyolo",
+                "bahasa laiyolo di sulawesi selatan? ",
+                "bahasa laiyolo sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Laiyolo merupakan bahasa yang berasal dari Sulawesi Selatan, bahasa ini sering digunakan di Desa Laiyolo, Kecamatan Bontosikuyu, Kabupaten Kepulauan Selayar, Provinsi Sulawesi Selatan."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_lemolang",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah lemolang",
+                "jelaskan mengenai bahasa lemolang",
+                "jelaskan tentang bahasa daerah lemolang",
+                "jelaskan tentang bahasa lemolang",
+                "bahasa daerah lemolang",
+                "bahasa lemolang",
+                "lemolang",
+                "bahasa lemolang di sulawesi selatan? ",
+                "bahasa lemolang sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Lemolang merupakan bahasa yang berasal dari Sulawesi Selatan, bahasa ini sering digunakan di Desa Sassa Kecamatan Baebunta, Desa Sabbang, Kecamatan Sabbang, dan Desa Baebunta, Kecamatan Baebunta, Kabupaten Luwu Utara. Menurut pengakuan penduduk, wilayah tutur bahasa Lemolang berbatasan dengan wilayah tutur bahasa Toala (bahasa Toraja dialek Toala) di sebelah timur, barat, dan selatan, serta wilayah tutur bahasa Rampi di sebelah utara."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_makassar",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah makassar",
+                "jelaskan mengenai bahasa makassar",
+                "jelaskan tentang bahasa daerah makassar",
+                "jelaskan tentang bahasa makassar",
+                "bahasa daerah makassar",
+                "bahasa makassar ",
+                "makassar bahasa",
+                "bahasa makassar di sulawesi selatan? ",
+                "bahasa makassar sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Makassar merupakan bahasa yang berasal dari Sulawesi Selatan yang dimana bahasa ini  memiliki 4 dialek yaitu dialek Lakiung, dialek Turatea, dialek Makassar Konjo dan dialek Selayar. Bahasa ini biasa digunakan didaerah Kabupaten Gowa, Takalar, Jeneponto, Bantaeng, Maros, Pangkajene, Kepulauan Selayar dan tentunya Kota Makassar."
+            ]
+        },
+        {
+            "tag": "bahasa_makassar_dialek_lakiung",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah makassar dialek lakiung",
+                "jelaskan mengenai bahasa makassar dialek lakiung",
+                "jelaskan tentang bahasa daerah makassar dialek lakiung",
+                "jelaskan tentang bahasa makassar dialek lakiung",
+                "bahasa daerah makassar dialek lakiung",
+                "bahasa makassar dialek lakiung",
+                "makassar dialek lakiung",
+                "dialek lakiung",
+                "bahasa makassar dialek lakiung di sulawesi selatan ",
+                "bahasa makassar dialek lakiung sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Lakiung dalam bahasa Makassar sering digunakan di Desa Barana, Kecamatan Bangkala Barat, Kabupaten Jeneponto, Kelurahan Tamarunang, Kecamatan Somba Opu, dan Desa Bontosunggu, Kecamatan Bajeng, Kabupaten Gowa."
+            ]
+        },
+        {
+            "tag": "bahasa_makassar_dialek_turatea",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah makassar dialek turatea",
+                "jelaskan mengenai bahasa makassar dialek turatea",
+                "jelaskan tentang bahasa daerah makassar dialek turatea",
+                "jelaskan tentang bahasa makassar dialek turatea",
+                "bahasa daerah makassar dialek turatea",
+                "bahasa makassar dialek turatea",
+                "makassar dialek turatea",
+                "dialek turatea",
+                "bahasa makassar dialek turatea di sulawesi selatan ",
+                "bahasa makassar dialek turatea sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek Turatea dalam bahasa Makassar sering digunakan di wilayah Kelurahan Bontoramba, Kecamatan Bontoramba, Desa Tarowang, Kecamatan Tarowang, dan Desa Borongtala, Kecamatan Tamalatea, Kabupaten Jeneponto, dan Kelurahan Buluttana, Kecamatan Tinggimoncong, Kabupaten Gowa."
+            ]
+        },
+        {
+            "tag": "bahasa_makassar_dialek_makassar_konjo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah makassar dialek makassar konjo",
+                "jelaskan mengenai bahasa makassar dialek makassar konjo",
+                "jelaskan tentang bahasa daerah makassar dialek makassar konjo",
+                "jelaskan tentang bahasa makassar dialek makassar konjo",
+                "bahasa daerah makassar dialek makassar konjo",
+                "bahasa makassar dialek makassar konjo",
+                "makassar dialek makassar konjo",
+                "dialek makassar konjo",
+                "bahasa makassar dialek makassar konjo di sulawesi selatan ",
+                "bahasa makassar dialek makassar konjo sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek makassar konjo dalam bahasa Makassar sering digunakan di wilayah Kelurahan Bontoramba, Kecamatan Bontoramba, Desa Tarowang, Kecamatan Tarowang, dan Desa Borongtala, Kecamatan Tamalatea, Kabupaten Jeneponto, dan Kelurahan Buluttana, Kecamatan Tinggimoncong, Kabupaten Gowa."
+            ]
+        },
+        {
+            "tag": "bahasa_makassar_dialek_selayar",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah makassar dialek selayar",
+                "jelaskan mengenai bahasa makassar dialek selayar",
+                "jelaskan tentang bahasa daerah makassar dialek selayar",
+                "jelaskan tentang bahasa makassar dialek selayar",
+                "bahasa daerah makassar dialek selayar",
+                "bahasa makassar dialek selayar",
+                "makassar dialek selayar",
+                "dialek selayar",
+                "bahasa makassar dialek selayar di sulawesi selatan ",
+                "bahasa makassar dialek selayar sulawesi selatan "
+            ],
+            "responses": [
+                "Dialek selayar dalam bahasa Makassar sering digunakan di wilayah Desa Bontobangung, Kecamatan Bontoharu dan Desa Onto, Kecamatan Bontomatene, Kabupaten Kepulauan Selayar."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_mandar",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah mandar",
+                "jelaskan mengenai bahasa mandar",
+                "jelaskan tentang bahasa daerah mandar",
+                "jelaskan tentang bahasa mandar",
+                "bahasa daerah mandar",
+                "bahasa mandar",
+                "mandar bahasa",
+                "bahasa mandar di sulawesi selatan? ",
+                "bahasa mandar sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Mandar merupakan bahasa yang berasal dari Sulawesi Selatan. Bahasa ini biasa digunakan didaerah Desa Lero, Kecamatan Suppa, Kabupaten Pinrang"
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_massenrengpulu",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah massenrengpulu",
+                "jelaskan mengenai bahasa massenrengpulu",
+                "jelaskan tentang bahasa daerah massenrengpulu",
+                "jelaskan tentang bahasa massenrengpulu",
+                "bahasa daerah massenrengpulu",
+                "bahasa massenrengpulu",
+                "massenrengpulu bahasa",
+                "bahasa massenrengpulu di sulawesi selatan? ",
+                "bahasa massenrengpulu sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Massenrengpulu merupakan bahasa yang berasal dari Sulawesi Selatan. Bahasa ini biasa digunakan didaerah Desa Banti dan Desa Salukanan, Kecamatan Baraka, Desa Mata Allo dan Desa Bungin, Kecamatan Bungin, Desa Ranga, Kecamatan Enrekang, Desa Taulan, Kecamatan Cendana, serta Desa Tunjung, Desa Kaluppang, Desa Patandon Salu, dan Desa Matajang, Kecamatan Maiwa, Kabupaten Enrekang. Bahasa ini pun memiliki 5 jenis dialek yaitu dialek Endekan, dialek Maroangin, dialek Bungin, dialek Duri dan dialek Maiwa."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_rampi",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah rampi",
+                "jelaskan mengenai bahasa rampi",
+                "jelaskan tentang bahasa daerah rampi",
+                "jelaskan tentang bahasa rampi",
+                "bahasa daerah rampi",
+                "bahasa rampi",
+                "rampi bahasa",
+                "bahasa rampi di sulawesi selatan? ",
+                "bahasa rampi sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Rampi merupakan bahasa yang berasal dari Sulawesi Selatan. Bahasa ini biasa digunakan didaerah Desa Baebunta, Kecamatan Baebunta, Kabupaten Luwu Utara, Provinsi Sulawesi Selatan."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_seko",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah seko",
+                "jelaskan mengenai bahasa seko",
+                "jelaskan tentang bahasa daerah seko",
+                "jelaskan tentang bahasa seko",
+                "bahasa daerah seko",
+                "bahasa seko",
+                "seko bahasa",
+                "bahasa seko di sulawesi selatan? ",
+                "bahasa seko sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Seko merupakan bahasa yang berasal dari Sulawesi Selatan. Bahasa ini biasa digunakan didaerah Desa Seko Padang, Kecamatan Limbong, Kabupaten Luwu Utara, Provinsi Sulawesi Selatan. "
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_toraja",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah toraja",
+                "jelaskan mengenai bahasa toraja",
+                "jelaskan tentang bahasa daerah toraja",
+                "jelaskan tentang bahasa toraja",
+                "bahasa daerah toraja",
+                "bahasa toraja",
+                "toraja bahasa",
+                "bahasa toraja di sulawesi selatan? ",
+                "bahasa toraja sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Toraja merupakan bahasa yang berasal dari Sulawesi Selatan. Bahasa ini biasa digunakan didaerah Kabupaten Kota Makassar, Tana Toraja, Toraja Utara, Luwu Utara, dan Luwu Provinsi Sulawesi Selatan."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_wotu",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah wotu",
+                "jelaskan mengenai bahasa wotu",
+                "jelaskan tentang bahasa daerah wotu",
+                "jelaskan tentang bahasa wotu",
+                "bahasa daerah wotu",
+                "bahasa wotu",
+                "wotu bahasa",
+                "bahasa wotu di sulawesi selatan? ",
+                "bahasa wotu sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Wotu merupakan bahasa yang berasal dari Sulawesi Selatan. Bahasa ini biasa digunakan didaerah Desa Bawalipu, Kecamatan Wotu, Kabupaten Luwu Timur, Provinsi Sulawesi Selatan."
+            ]
+        },
+        {
+            "tag": "rumah_adat_sulawesi_selatan",
+            "patterns": [
+                "apa rumah adat yang ada di sulawesi selatan? ",
+                "apa rumah adat yang digunakan di sulawesi selatan ",
+                "apa saja rumah adat yang digunakan di sulawesi selatan ",
+                "rumah adat di sulawesi selatan ",
+                "rumah adat di sulawesi selatan? ",
+                "rumah adat sulawesi selatan? ",
+                "sebutkan apa saja rumah adat di sulawesi selatan? "
+            ],
+            "responses": [
+                "di Sulawesi Selatan terdapat berbagai macam rumah adat diantaranya yaitu Rumah Adat Bugis, Rumah Tongkonan, Balla Lompoa, Rumah Adat Langkanae Luwu, Rumah Adat Boyang, dan Rumah Adat Saoraja."
+            ]
+        },
+        {
+            "tag": "bahasa_daerah_bajo",
+            "patterns": [
+                "jelaskan mengenai bahasa daerah bajo ",
+                "jelaskan mengenai bahasa bajo ",
+                "jelaskan tentang bahasa daerah bajo ",
+                "jelaskan tentang bahasa bajo ",
+                "bahasa daerah bajo",
+                "bahasa bajo ",
+                "bahasa bajo di sulawesi selatan? ",
+                "bahasa bajo sulawesi selatan "
+            ],
+            "responses": [
+                "Bahasa Bajo merupakan bahasa dari sulawesi selatan yang sering digunakan oleh masyarakat di Desa Rajuni, Kecamatan Taka Bonerate, Kabupaten Kepulauan Selayar dan Kelurahan Bajoe, Kecamatan Tanete Riattang Timur, Kabupaten Bone, Provinsi Sulawesi Selatan. "
+            ]
+        }
+    ]
+}
