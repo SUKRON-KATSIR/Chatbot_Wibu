@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Informasi</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/assets/img/favicon.png" rel="icon">
+  <link href="static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact - v1.1.1
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar -->
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="{{url_for('index')}}" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="static/assets/img/logo.png" alt="">
+        <h1>Chatbot Wibu<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        
+      </nav>
+      <!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center" style="background-image: url('');">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Informasi Wisata</h2>
+              <p>Keragaman budaya Indonesia bisa kamu nikmati saat berkunjung ke berbagai tempat wisata.
+                Kamu berlibur bersama keluarga sambil mengedukasi, khususnya anak-anak. Dengan berwisata edukasi, 
+                kamu bisa menemukan berbagai keindahan budaya Indonesia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href=" {{url_for('index')}} ">Home</a></li>
+            <li><a href=" {{url_for('budaya')}} ">Budaya</a></li>
+            <li>Wisata</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Details Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row g-5">
+
+          <div class="col-lg-12">
+
+            <article class="blog-details">
+
+              <div class="post-img" style="text-align: center ">
+                <img src="static\assets\img\background.png" alt="" class="img-fluid" >
+              </div>
+
+
+
+              <!-- <div class="meta-top">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
+                </ul>
+              </div> -->
+              <!-- End meta top -->
+
+              <div class="content">
+                <blockquote>
+                  <p>
+                    Orang - orang yang senang menikmati keindahan alam akan menemukan kekuatan hebat dalam dirinya.
+                    Dia percaya bahwa orang kecil juga bisa mampu memanjat puncak.
+                    Dia pun percaya mampu meraih mimpi.
+                    <!-- <p><b>(Wilson Churchill)</b></p> -->
+                  </p>
+                </blockquote>
+                <h2 class="title">Salah Satu Tempat Wisata Yang Ada di Indonesia</h2>
+                <p style="text-align: justify">
+                  Indonesia adalah negara yang indah dengan berbagai keragaman yang dimilikinya mulai dari sumber daya alam,
+                  bahasa, suku bangsa, dan budaya. Dengan keragaman tersebut, Indonesia saat ini telah menjadi destinasi yang 
+                  populer di kalangan wisatawan dari mancanegara. Banyak tempat wisata di Indonesia yang namanya sudah sangat 
+                  dikenal oleh para pecinta travelling. Berikut ini adalah salah satu dari destinasi wisata yang ada di
+                  Indonesia yang mendunia.
+                </p>
+                <!-- <h3>Salah Satu Tarian Daerah Yang Ada di Indonesia</h3> -->
+               <div class="row gy-4" style="text-align: justify">
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\wisata\wisata-bali.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Pulau Bali</b></p>
+                    <p class="card-text">Pulau bali sering dikenal dengan nama Pulau Dewata yang menawarkan pesona
+                      melalui keindahannya yang luar biasa. Selain memiliki bentangan alam yang indah, kekayaan budaya setempat
+                      juga masih sangat kental melekat bagi para penduduknya. Oleh sebab itu tidak heran jika pulau dewata ini
+                      menjadi sangat populer di mata dunia.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\wisata\raja-ampat.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Raja Ampat</b></p>
+                    <p class="card-text">Raja Ampat menjadi destinasi yang sangat populer di kalangan para turis asing.
+                      Raja Ampat juga menyuguhkan ekosistem laut yang masih sangat alami. Hal ini dibuktikan dengan keragaman 
+                      makhluk laut di dalamnya di mana hampir setengah spesies ikan dunia ditemukan di perairan Raja Ampat. 
+                      Oleh sebab itu Raja Ampat juga sering disebut sebagai surga diving bagi para pencinta kegiatan menyelam. 
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\wisata\Bunaken.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Bunaken</b></p>
+                    <p class="card-text">Bunaken memiliki banyak batu karang cantik yang siap 
+                      memanjakan para wisatawan yang melihatnya. Bahkan batu karang di perairan Bunaken ini 7 kali lebih banyak 
+                      dibandingkan Hawaii. Bagi para wisatawan di sana dihimbau agar tidak sampai merusak batu karang di sana.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\wisata\gunung-bromo.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Gunung Bromo</b></p>
+                    <p class="card-text">Gunung Bromo merupakan salah satu gunung berapi aktif di Indonesia. 
+                      Perjuangan selama perjalanan akan terbayar dengan keindahan gunung Bromo. Tidak hanya itu saja, di Bromo juga 
+                      rutin digelar upacara adat Kasada yang diselenggarakan setiap tahun di bulan purnama.
+                      Tidak sedikit wisatawan yang sengaja berkunjung ke Bromo demi melihat upacara adat ini.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- <h3>Rumah Adat Indonesia</h3>
+               <div class="row gy-4" style="text-align: justify">
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\reog.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Timur : Reog Ponorogo</b></p>
+                    <p class="card-text">Reog adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak ditambah beberapa penari bertopeng dan berkuda lumping.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\jaipong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Barat : Jaipong</b></p>
+                    <p class="card-text">Tari Jaipong ini merupakan gabungan dari beberapa kesenian tradisional seperti Wayang Golek, Pencak Silat, dan Ketuk Tilu.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\saman.jpeg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Aceh : Tari Saman</b></p>
+                    <p class="card-text">Tari Saman merupakan tarian yang berasal dari suku Gayo dan biasanya ditampilkan dalam suatu perayaan penting di suatu peristiwa adat. Syair pada tariannya juga mempergunakan Bahasa-bahasa Gayo. Selain itu tarian ini juga kerap ditampilkan saat merayakan hari raya kelahiran Nabi Muhammad SAW</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\gambyong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Tengan : Gambyong</b></p>
+                    <p class="card-text">Gambyong merupakan salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.</p>
+                  </div>
+                </div>
+
+              </div> -->
+
+              <!-- <h3>Pakaian Adat Indonesia</h3>
+               <div class="row gy-4" style="text-align: justify">
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\reog.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Timur : Reog Ponorogo</b></p>
+                    <p class="card-text">Reog adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak ditambah beberapa penari bertopeng dan berkuda lumping.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\jaipong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Barat : Jaipong</b></p>
+                    <p class="card-text">Tari Jaipong ini merupakan gabungan dari beberapa kesenian tradisional seperti Wayang Golek, Pencak Silat, dan Ketuk Tilu.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\saman.jpeg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Aceh : Tari Saman</b></p>
+                    <p class="card-text">Tari Saman merupakan tarian yang berasal dari suku Gayo dan biasanya ditampilkan dalam suatu perayaan penting di suatu peristiwa adat. Syair pada tariannya juga mempergunakan Bahasa-bahasa Gayo. Selain itu tarian ini juga kerap ditampilkan saat merayakan hari raya kelahiran Nabi Muhammad SAW</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\gambyong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Tengan : Gambyong</b></p>
+                    <p class="card-text">Gambyong merupakan salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.</p>
+                  </div>
+                </div>
+
+              </div> -->
+
+              <!-- <h3>Senjata</h3>
+               <div class="row gy-4" style="text-align: justify">
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\reog.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Timur : Reog Ponorogo</b></p>
+                    <p class="card-text">Reog adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak ditambah beberapa penari bertopeng dan berkuda lumping.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\jaipong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Barat : Jaipong</b></p>
+                    <p class="card-text">Tari Jaipong ini merupakan gabungan dari beberapa kesenian tradisional seperti Wayang Golek, Pencak Silat, dan Ketuk Tilu.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\saman.jpeg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Aceh : Tari Saman</b></p>
+                    <p class="card-text">Tari Saman merupakan tarian yang berasal dari suku Gayo dan biasanya ditampilkan dalam suatu perayaan penting di suatu peristiwa adat. Syair pada tariannya juga mempergunakan Bahasa-bahasa Gayo. Selain itu tarian ini juga kerap ditampilkan saat merayakan hari raya kelahiran Nabi Muhammad SAW</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\gambyong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Tengan : Gambyong</b></p>
+                    <p class="card-text">Gambyong merupakan salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.</p>
+                  </div>
+                </div>
+
+              </div> -->
+
+              <!-- <h3>Tradisi di Indonesia</h3>
+
+               <div class="row gy-4" style="text-align: justify">
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\reog.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Timur : Reog Ponorogo</b></p>
+                    <p class="card-text">Reog adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak ditambah beberapa penari bertopeng dan berkuda lumping.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\jaipong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Barat : Jaipong</b></p>
+                    <p class="card-text">Tari Jaipong ini merupakan gabungan dari beberapa kesenian tradisional seperti Wayang Golek, Pencak Silat, dan Ketuk Tilu.</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\saman.jpeg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Aceh : Tari Saman</b></p>
+                    <p class="card-text">Tari Saman merupakan tarian yang berasal dari suku Gayo dan biasanya ditampilkan dalam suatu perayaan penting di suatu peristiwa adat. Syair pada tariannya juga mempergunakan Bahasa-bahasa Gayo. Selain itu tarian ini juga kerap ditampilkan saat merayakan hari raya kelahiran Nabi Muhammad SAW</p>
+                  </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6" style="width: 18rem;">
+                  <img class="card-img-top" src="static\assets\img\seni\gambyong.jpg" alt="Card image cap">
+                  <div class="card-body" >
+                    <p><b>Jawa Tengan : Gambyong</b></p>
+                    <p class="card-text">Gambyong merupakan salah satu bentuk tarian Jawa klasik yang berasal-mula dari wilayah Surakarta dan biasanya dibawakan untuk pertunjukan atau menyambut tamu.</p>
+                  </div>
+                </div>
+
+              </div> -->
+
+              </div>
+              <!-- End post content -->
+
+            </article><!-- End blog post -->
+
+            <div class="post-author d-flex align-items-center">
+              <img src="static\assets\img\ragam.jpg" class="rounded-circle flex-shrink-0" alt="">
+              <div>
+                <h4>WiBu</h4>
+                <div class="social-links">
+                  <a href="https://twitters.com/#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
+                </div>
+                <p>
+                  chatbot wibu terdiri kumpulan rekomendasi tempat wisata dan kebudayaan di Indonesia
+                </p>
+              </div>
+            </div><!-- End post author -->
+
+            <!-- <div class="comments">
+
+              <h4 class="comments-count">8 Comments</h4>
+
+              <div id="comment-1" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="static/assets/img/blog/comments-1.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Georgia Reader</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2020-01-01">01 Jan,2022</time>
+                    <p>
+                      Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae est qui cum soluta.
+                      Vero aut rerum vel. Rerum quos laboriosam placeat ex qui. Sint qui facilis et.
+                    </p>
+                  </div>
+                </div>
+              </div> -->
+              <!-- End comment #1 -->
+
+              <!-- <div id="comment-2" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="static/assets/img/blog/comments-2.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Aron Alvarado</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2020-01-01">01 Jan,2022</time>
+                    <p>
+                      Ipsam tempora sequi voluptatem quis sapiente non. Autem itaque eveniet saepe. Officiis illo ut beatae.
+                    </p>
+                  </div>
+                </div>
+
+                <div id="comment-reply-1" class="comment comment-reply">
+                  <div class="d-flex">
+                    <div class="comment-img"><img src="static/assets/img/blog/comments-3.jpg" alt=""></div>
+                    <div>
+                      <h5><a href="">Lynda Small</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                      <time datetime="2020-01-01">01 Jan,2022</time>
+                      <p>
+                        Enim ipsa eum fugiat fuga repellat. Commodi quo quo dicta. Est ullam aspernatur ut vitae quia mollitia id non. Qui ad quas nostrum rerum sed necessitatibus aut est. Eum officiis sed repellat maxime vero nisi natus. Amet nesciunt nesciunt qui illum omnis est et dolor recusandae.
+
+                        Recusandae sit ad aut impedit et. Ipsa labore dolor impedit et natus in porro aut. Magnam qui cum. Illo similique occaecati nihil modi eligendi. Pariatur distinctio labore omnis incidunt et illum. Expedita et dignissimos distinctio laborum minima fugiat.
+
+                        Libero corporis qui. Nam illo odio beatae enim ducimus. Harum reiciendis error dolorum non autem quisquam vero rerum neque.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div id="comment-reply-2" class="comment comment-reply">
+                    <div class="d-flex">
+                      <div class="comment-img"><img src="static/assets/img/blog/comments-4.jpg" alt=""></div>
+                      <div>
+                        <h5><a href="">Sianna Ramsay</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                        <time datetime="2020-01-01">01 Jan,2022</time>
+                        <p>
+                          Et dignissimos impedit nulla et quo distinctio ex nemo. Omnis quia dolores cupiditate et. Ut unde qui eligendi sapiente omnis ullam. Placeat porro est commodi est officiis voluptas repellat quisquam possimus. Perferendis id consectetur necessitatibus.
+                        </p>
+                      </div>
+                    </div> -->
+
+                  <!-- </div> -->
+                  <!-- End comment reply #2-->
+
+                <!-- </div> -->
+                <!-- End comment reply #1-->
+
+              <!-- </div> -->
+              <!-- End comment #2-->
+
+              <!-- <div id="comment-3" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="static/assets/img/blog/comments-5.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Nolan Davidson</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2020-01-01">01 Jan,2022</time>
+                    <p>
+                      Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste at.
+                      Non aut et et esse qui sit modi neque. Exercitationem et eos aspernatur. Ea est consequuntur officia beatae ea aut eos soluta. Non qui dolorum voluptatibus et optio veniam. Quam officia sit nostrum dolorem.
+                    </p>
+                  </div>
+                </div>
+
+              </div> -->
+              <!-- End comment #3 -->
+
+              <!-- <div id="comment-4" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="static/assets/img/blog/comments-6.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Kay Duggan</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2020-01-01">01 Jan,2022</time>
+                    <p>
+                      Dolorem atque aut. Omnis doloremque blanditiis quia eum porro quis ut velit tempore. Cumque sed quia ut maxime. Est ad aut cum. Ut exercitationem non in fugiat.
+                    </p>
+                  </div>
+                </div>
+
+              </div> -->
+              <!-- End comment #4 -->
+
+              <!-- <div class="reply-form">
+
+                <h4>Leave a Reply</h4>
+                <p>Your email address will not be published. Required fields are marked * </p>
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <input name="website" type="text" class="form-control" placeholder="Your Website">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Post Comment</button>
+
+                </form>
+
+              </div>
+
+            </div> -->
+            <!-- End blog comments -->
+
+          <!-- </div> -->
+
+          <!-- <div class="col-lg-4">
+
+            <div class="sidebar"> -->
+
+              <!-- <div class="sidebar-item search-form">
+                <h3 class="sidebar-title">Search</h3>
+                <form action="" class="mt-3">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div> -->
+              <!-- End sidebar search formn-->
+
+              <!-- <div class="sidebar-item categories">
+                <h3 class="sidebar-title">Categories</h3>
+                <ul class="mt-3">
+                  <li><a href="#">General <span>(25)</span></a></li>
+                  <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                  <li><a href="#">Travel <span>(5)</span></a></li>
+                  <li><a href="#">Design <span>(22)</span></a></li>
+                  <li><a href="#">Creative <span>(8)</span></a></li>
+                  <li><a href="#">Educaion <span>(14)</span></a></li>
+                </ul>
+              </div> -->
+              <!-- End sidebar categories-->
+
+
+              <!-- <div class="sidebar-item recent-posts">
+                <h3 class="sidebar-title">Recent Posts</h3>
+
+                <div class="mt-3">
+
+                  <div class="post-item mt-3">
+                    <img src="static/assets/img/blog/blog-recent-1.jpg" alt="">
+                    <div>
+                      <h4><a href="blog-details.html">Nihil blanditiis at in nihil autem</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div> -->
+                  <!-- End recent post item-->
+
+                  <!-- <div class="post-item">
+                    <img src="static/assets/img/blog/blog-recent-2.jpg" alt="">
+                    <div>
+                      <h4><a href="blog-details.html">Quidem autem et impedit</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div> -->
+                  <!-- End recent post item-->
+
+                  <!-- <div class="post-item">
+                    <img src="static/assets/img/blog/blog-recent-3.jpg" alt="">
+                    <div>
+                      <h4><a href="blog-details.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div> -->
+                  <!-- End recent post item-->
+
+                  <!-- <div class="post-item">
+                    <img src="static/assets/img/blog/blog-recent-4.jpg" alt="">
+                    <div>
+                      <h4><a href="blog-details.html">Laborum corporis quo dara net para</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div> -->
+                  <!-- End recent post item-->
+
+                  <!-- <div class="post-item">
+                    <img src="static/assets/img/blog/blog-recent-5.jpg" alt="">
+                    <div>
+                      <h4><a href="blog-details.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                      <time datetime="2020-01-01">Jan 1, 2020</time>
+                    </div>
+                  </div> -->
+                  <!-- End recent post item-->
+
+                <!-- </div> -->
+
+              <!-- </div> -->
+              <!-- End sidebar recent posts-->
+
+              <!-- <div class="sidebar-item tags">
+                <h3 class="sidebar-title">Tags</h3>
+                <ul class="mt-3">
+                  <li><a href="#">App</a></li>
+                  <li><a href="#">IT</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Mac</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Creative</a></li>
+                  <li><a href="#">Studio</a></li>
+                  <li><a href="#">Smart</a></li>
+                  <li><a href="#">Tips</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+              </div> -->
+              <!-- End sidebar tags-->
+
+            </div>
+            <!-- End Blog Sidebar -->
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Blog Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Media sosial</span>
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Layanan Chatbot</a></li>
+            <li><a href="#">Informasi Budaya</a></li>
+            <li><a href="#">Informasi Wisata</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+             Jl. Cisanggiri V, No 6, Petogogan, 
+             Kebayoran Baru, Jakarta Selatan 12170
+             Indonesia <br><br>
+            <strong>Phone:</strong> +62 888 4282830<br>
+            <strong>Email:</strong> wibuchatbot@gmail.com<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>wibuchatbot</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <a>Designed by <a href="https://bootstrapmade.com/">wibuchatbot</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
